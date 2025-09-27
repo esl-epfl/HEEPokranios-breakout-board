@@ -1,4 +1,4 @@
-24269099394878394
+24272617351130142
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -97531,6 +97531,13 @@ BIWIN_DTS04GE_SMD
 6
 6
 heep_footprints
+CONN_502598-3393_MOL
+
+5025983393 
+0
+35
+35
+heep_footprints
 EPFL
 
 
@@ -97572,6 +97579,13 @@ PGA_12x12_
 0
 3
 3
+heep_footprints
+SPDT-2pos-CAS-D20B1
+
+
+0
+0
+0
 heep_footprints
 TI-UQFN-16
 
