@@ -1360,7 +1360,7 @@
 			(uuid "afbfae24-afc3-450d-8fb0-4e48be0ad401")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.635 1.27 360)
+			(at 0.635 1.27 0)
 			(layer "F.Fab")
 			(uuid "b5f368bf-c469-4310-b8dd-7180de6362d1")
 			(effects
@@ -1722,7 +1722,7 @@
 			(uuid "601dbc63-48c2-4a5a-a8bc-afd2af0e986c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 39.37 360)
+			(at 1.27 39.37 0)
 			(layer "F.Fab")
 			(uuid "fc084a80-5196-44b5-b0ad-e1ac6ae2f44b")
 			(effects
@@ -4377,7 +4377,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C3"
-			(at 0.08 -1.14 360)
+			(at 0.08 -1.14 0)
 			(layer "F.SilkS")
 			(uuid "0bc5faec-6e0b-431d-9cc1-4682ac5c75a3")
 			(effects
@@ -4388,7 +4388,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "08b27df3-d168-42cd-9869-7b17b4a309e9")
 			(effects
@@ -4582,7 +4582,7 @@
 			(uuid "7c23844d-3e96-4952-99cf-a0acec5e7a83")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "ce2b3936-1009-4fb7-8d98-4603dd0eba52")
 			(effects
@@ -4629,7 +4629,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at 2.62 -0.05 360)
+			(at 2.62 -0.05 0)
 			(layer "F.SilkS")
 			(uuid "a4b8aa7f-2ad5-4dff-bdde-50abadb73b0c")
 			(effects
@@ -4640,7 +4640,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "80cb9277-de0f-4fc4-a058-f9527773e007")
 			(effects
@@ -4834,7 +4834,7 @@
 			(uuid "0bb146a0-b286-4b75-8402-7f33c8d3ea59")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "6a5e71b1-0cf1-43ae-a942-167b4d4ea840")
 			(effects
@@ -5752,7 +5752,7 @@
 			(uuid "a7ad2c9a-b55a-4a36-b909-fee390fc0fbe")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.635 1.27 360)
+			(at 0.635 1.27 0)
 			(layer "F.Fab")
 			(uuid "8ae01c6e-0270-447d-87c8-7fd27aff4d05")
 			(effects
@@ -11618,7 +11618,7 @@
 		(uuid "dd6ffc68-f867-4dea-8a20-70d4c4757352")
 		(at 104.94 83.36)
 		(property "Reference" "G***"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "a96b6a4d-677c-4bd5-835f-11401425f9c3")
@@ -11630,7 +11630,7 @@
 			)
 		)
 		(property "Value" "LOGO"
-			(at 0.75 0 360)
+			(at 0.75 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b547ba0a-f7c1-4092-8baa-73f880672777")
@@ -11642,7 +11642,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "34ee4093-33d2-4e91-8256-e57833a31cd9")
@@ -11654,7 +11654,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b7b69115-e790-4ddb-9305-38773d490bb3")
@@ -11666,7 +11666,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "22a5d7b8-7b24-47f3-8e71-fccf78af2a18")
@@ -13915,7 +13915,7 @@
 		(descr "CK components KMR2 tactile switch http://www.ckswitches.com/media/1479/kmr2.pdf")
 		(tags "tactile switch kmr2")
 		(property "Reference" "SW1"
-			(at 3.6 1.8 360)
+			(at 3.6 1.8 0)
 			(layer "F.SilkS")
 			(uuid "dfd742c4-dc8b-4632-a08a-c5e2be9da4d4")
 			(effects
@@ -13926,7 +13926,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 0 2.55 360)
+			(at 0 2.55 0)
 			(layer "F.Fab")
 			(uuid "264902bd-fa24-4204-86dd-843887aa1561")
 			(effects
@@ -14111,7 +14111,7 @@
 			(uuid "98af07fa-63a9-4d50-bf3d-e6417c4e2236")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.45 360)
+			(at 0 -2.45 0)
 			(layer "F.Fab")
 			(uuid "b0da56d5-208e-4daa-a228-8bb363911b1f")
 			(effects
@@ -21835,20 +21835,28 @@
 		(uuid "980bdb6b-df34-4887-9203-8aa254515d23")
 	)
 	(segment
-		(start 113.25 74.01)
+		(start 113.39 73.87)
 		(end 114.7 72.56)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 38)
-		(uuid "402db8cb-acc7-4cc5-8c2c-1a58bfb04d3b")
+		(uuid "1ca5d491-a9fa-4610-8fc8-bc4c5c9d0846")
 	)
 	(segment
-		(start 113.25 76.03)
-		(end 113.25 74.01)
+		(start 130.920499 93.700499)
+		(end 113.39 76.17)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 38)
-		(uuid "431dc88c-40ee-4f5e-9dfc-3040740bfad8")
+		(uuid "34abf3c4-6cca-4a76-9d3e-6b377176c509")
+	)
+	(segment
+		(start 113.39 76.17)
+		(end 113.39 73.87)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 38)
+		(uuid "362138d1-b872-4c56-a2ef-737dfc9523a6")
 	)
 	(segment
 		(start 133.1925 96.2425)
@@ -21859,14 +21867,6 @@
 		(uuid "72f996ff-f597-436d-b097-4d4b5126a84e")
 	)
 	(segment
-		(start 133.18 93.700499)
-		(end 130.920499 93.700499)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 38)
-		(uuid "906430b6-5c9f-4ada-a793-2ab28a5601b8")
-	)
-	(segment
 		(start 132.8325 96.2425)
 		(end 132.75 96.16)
 		(width 0.25)
@@ -21875,12 +21875,12 @@
 		(uuid "956fb368-135b-4025-98b4-7d394564585e")
 	)
 	(segment
-		(start 130.920499 93.700499)
-		(end 113.25 76.03)
+		(start 133.18 93.700499)
+		(end 130.920499 93.700499)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 38)
-		(uuid "d5c6bfd3-24c8-40e6-bb75-d152fe2b924b")
+		(uuid "d6b4dc60-cf46-456a-b9bd-496d05f00ed0")
 	)
 	(via
 		(at 132.75 96.16)
