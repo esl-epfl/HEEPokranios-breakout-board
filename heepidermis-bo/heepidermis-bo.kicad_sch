@@ -16238,6 +16238,18 @@
 		(uuid 2110d7e5-6e1d-4b70-a176-07e1443efd78)
 	)
 	(rectangle
+		(start 157.48 15.24)
+		(end 198.12 38.735)
+		(stroke
+			(width 0.5)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2d268509-785f-443d-b290-82565ed6ebc1)
+	)
+	(rectangle
 		(start 15.24 15.24)
 		(end 55.88 38.735)
 		(stroke
@@ -16248,6 +16260,18 @@
 			(type none)
 		)
 		(uuid 5f3d65e1-3bba-4a1e-9c49-5afaa9d4f482)
+	)
+	(rectangle
+		(start 193.04 46.99)
+		(end 226.06 109.22)
+		(stroke
+			(width 0.5)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7263008b-cfcb-4f2f-bace-aead17f7780e)
 	)
 	(rectangle
 		(start 15.875 134.62)
@@ -16262,8 +16286,20 @@
 		(uuid 8192fa8d-c3e2-4e1b-b90e-f335dbc070d2)
 	)
 	(rectangle
-		(start 114.3 14.605)
-		(end 154.94 38.1)
+		(start -121.92 3.81)
+		(end -8.89 120.65)
+		(stroke
+			(width 0.5)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9160fc43-c778-4c90-99c4-44bf51e66e68)
+	)
+	(rectangle
+		(start 114.3 15.24)
+		(end 154.94 39.37)
 		(stroke
 			(width 0.5)
 			(type dash)
@@ -16309,32 +16345,6 @@
 		)
 		(uuid e5b88bef-1ddf-46f6-96b6-70f36f29b7b9)
 	)
-	(text "Connect to sth!\n"
-		(exclude_from_sim no)
-		(at 7.874 88.138 0)
-		(effects
-			(font
-				(size 3 3)
-				(thickness 0.6)
-				(bold yes)
-				(color 255 26 84 1)
-			)
-		)
-		(uuid "07a09718-500f-4258-af41-9317b789c5f4")
-	)
-	(text "ADD GND TEST POINTS"
-		(exclude_from_sim no)
-		(at 188.976 26.162 0)
-		(effects
-			(font
-				(size 3 3)
-				(thickness 0.6)
-				(bold yes)
-				(color 255 26 84 1)
-			)
-		)
-		(uuid "09f28ef5-0ab0-4a5c-a7cc-83c52ffe6b66")
-	)
 	(text "SUPPLY_DCORE_VDD was not \nconnected on the chip"
 		(exclude_from_sim no)
 		(at 28.702 54.102 0)
@@ -16345,67 +16355,21 @@
 		)
 		(uuid "1023528f-a829-483f-87d2-79cd60fceb7e")
 	)
-	(text "ADD versasens TEST POINTS"
+	(text "!! ADD A RESISTOR TO MEASURE current from iOUT\n"
 		(exclude_from_sim no)
-		(at 192.024 17.78 0)
-		(effects
-			(font
-				(size 3 3)
-				(thickness 0.6)
-				(bold yes)
-				(color 255 26 84 1)
-			)
-		)
-		(uuid "3bdc092f-38d1-4768-bae5-3343ed807237")
-	)
-	(text "Connect to sth!\n"
-		(exclude_from_sim no)
-		(at 21.59 106.934 0)
-		(effects
-			(font
-				(size 3 3)
-				(thickness 0.6)
-				(bold yes)
-				(color 255 26 84 1)
-			)
-		)
-		(uuid "41e442a2-e6b3-4d8c-8f5c-313f11e48f4f")
-	)
-	(text "ADD SPI S TEST POINTS"
-		(exclude_from_sim no)
-		(at 187.706 33.528 0)
-		(effects
-			(font
-				(size 3 3)
-				(thickness 0.6)
-				(bold yes)
-				(color 255 26 84 1)
-			)
-		)
-		(uuid "94918cd6-c3d4-4711-810f-941523aa1f58")
-	)
-	(text "Connect to sth!\n"
-		(exclude_from_sim no)
-		(at 143.256 196.596 90)
-		(effects
-			(font
-				(size 3 3)
-				(thickness 0.6)
-				(bold yes)
-				(color 255 26 84 1)
-			)
-		)
-		(uuid "de7634ca-68ab-4bb5-a4ab-1762e4811897")
-	)
-	(text "!! ADD A RESISTOR TO MEASURE"
-		(exclude_from_sim no)
-		(at 170.688 43.942 0)
+		(at 165.1 -4.572 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "fb8ba12f-f414-4b47-8f5b-c65dc843fa17")
+	)
+	(junction
+		(at 246.38 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0633f2d7-6699-4117-bf8c-6dc68842528d")
 	)
 	(junction
 		(at 134.62 82.55)
@@ -16955,17 +16919,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 31.75) (xy 88.9 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12a80208-cf9d-4dca-8d99-7a7cfd1d6300")
-	)
-	(wire
-		(pts
-			(xy 91.44 31.75) (xy 91.44 38.1)
+			(xy 91.44 24.13) (xy 91.44 38.1)
 		)
 		(stroke
 			(width 0)
@@ -17012,6 +16966,16 @@
 			(type default)
 		)
 		(uuid "17f2e362-a9ea-43cc-9bd0-11c4beeda681")
+	)
+	(wire
+		(pts
+			(xy 246.38 62.23) (xy 246.38 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "186a24d2-9d6f-41ee-873e-985471ab2d94")
 	)
 	(wire
 		(pts
@@ -17065,16 +17029,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 118.11) (xy 52.07 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f0f899a-090f-4ec0-b67f-93ecefb25a27")
-	)
-	(wire
-		(pts
 			(xy 78.74 114.3) (xy 78.74 127)
 		)
 		(stroke
@@ -17102,16 +17056,6 @@
 			(type default)
 		)
 		(uuid "211be4f8-096b-4c67-a7f1-ebff48241dfa")
-	)
-	(wire
-		(pts
-			(xy 71.12 101.6) (xy 71.12 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "218f6e72-25ae-4771-8807-bafc76a729f5")
 	)
 	(wire
 		(pts
@@ -17155,23 +17099,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 31.75) (xy 101.6 38.1)
+			(xy 101.6 36.83) (xy 101.6 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2c167034-e2cb-43d5-9c9b-0968a4fb4d03")
-	)
-	(wire
-		(pts
-			(xy 86.36 31.75) (xy 86.36 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ddd4da1-5762-44ac-9d52-d98f265105b2")
 	)
 	(wire
 		(pts
@@ -17182,6 +17116,16 @@
 			(type default)
 		)
 		(uuid "2e23c90e-e91f-480f-a497-b6d887b11f1b")
+	)
+	(wire
+		(pts
+			(xy 88.9 24.13) (xy 88.9 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e2e8d87-6e36-41d7-8d60-9cadda254a2c")
 	)
 	(wire
 		(pts
@@ -17315,7 +17259,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 31.75) (xy 66.04 38.1)
+			(xy 66.04 36.83) (xy 66.04 38.1)
 		)
 		(stroke
 			(width 0)
@@ -17325,7 +17269,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 31.75) (xy 68.58 38.1)
+			(xy 68.58 36.83) (xy 68.58 38.1)
 		)
 		(stroke
 			(width 0)
@@ -17345,17 +17289,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 118.11) (xy 45.72 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f223682-26ec-47a7-be57-0e2d9d3f7fdc")
-	)
-	(wire
-		(pts
-			(xy 245.11 62.23) (xy 250.19 62.23)
+			(xy 245.11 62.23) (xy 246.38 62.23)
 		)
 		(stroke
 			(width 0)
@@ -17382,6 +17316,16 @@
 			(type default)
 		)
 		(uuid "425e5c04-8f14-43b4-bdc2-438a08379406")
+	)
+	(wire
+		(pts
+			(xy 240.03 85.09) (xy 250.19 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4427b78d-5aba-414b-b84b-649a2b1fbb23")
 	)
 	(wire
 		(pts
@@ -17425,6 +17369,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 24.13) (xy 86.36 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49f1cfa5-28d6-4dc6-b7d1-5c2b115590ba")
+	)
+	(wire
+		(pts
 			(xy 167.64 57.15) (xy 167.64 49.53)
 		)
 		(stroke
@@ -17445,7 +17399,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 31.75) (xy 83.82 38.1)
+			(xy 83.82 36.83) (xy 83.82 38.1)
 		)
 		(stroke
 			(width 0)
@@ -17495,7 +17449,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 101.6) (xy 68.58 99.06)
+			(xy 68.58 99.06) (xy 68.58 116.84)
 		)
 		(stroke
 			(width 0)
@@ -17635,7 +17589,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 31.75) (xy 99.06 38.1)
+			(xy 99.06 36.83) (xy 99.06 38.1)
 		)
 		(stroke
 			(width 0)
@@ -17815,6 +17769,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 80.01) (xy 250.19 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78e2598c-c074-4d0b-a139-adbe99e74c56")
+	)
+	(wire
+		(pts
 			(xy 176.53 74.93) (xy 176.53 78.74)
 		)
 		(stroke
@@ -17855,7 +17819,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 31.75) (xy 63.5 38.1)
+			(xy 63.5 36.83) (xy 63.5 38.1)
 		)
 		(stroke
 			(width 0)
@@ -17885,13 +17849,23 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 31.75) (xy 76.2 38.1)
+			(xy 76.2 36.83) (xy 76.2 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "865bbc4f-3ce2-4c09-b96b-0ef8bc367292")
+	)
+	(wire
+		(pts
+			(xy 71.12 99.06) (xy 71.12 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86666be0-4ee1-4488-b4cd-5d354211da33")
 	)
 	(wire
 		(pts
@@ -18035,7 +18009,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 101.6) (xy 63.5 99.06)
+			(xy 63.5 99.06) (xy 63.5 116.84)
 		)
 		(stroke
 			(width 0)
@@ -18075,6 +18049,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 74.93) (xy 176.53 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b29ca5e-1314-4cd3-865b-f78e55ca013c")
+	)
+	(wire
+		(pts
 			(xy 134.62 54.61) (xy 147.32 54.61)
 		)
 		(stroke
@@ -18095,7 +18079,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 49.53) (xy 180.34 49.53)
+			(xy 167.64 49.53) (xy 168.91 49.53)
 		)
 		(stroke
 			(width 0)
@@ -18142,6 +18126,16 @@
 			(type default)
 		)
 		(uuid "a53d925a-675d-4445-b01c-ff51169e5fd2")
+	)
+	(wire
+		(pts
+			(xy 241.3 54.61) (xy 250.19 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6c8bb63-d9c3-4714-957f-12c3cdbffae9")
 	)
 	(wire
 		(pts
@@ -18305,7 +18299,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 31.75) (xy 78.74 38.1)
+			(xy 78.74 36.83) (xy 78.74 38.1)
 		)
 		(stroke
 			(width 0)
@@ -18415,13 +18409,23 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 31.75) (xy 93.98 38.1)
+			(xy 93.98 24.13) (xy 93.98 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c294f718-d8b4-4e08-828d-43cb51a53cdc")
+	)
+	(wire
+		(pts
+			(xy 176.53 49.53) (xy 180.34 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2ee16d4-04d3-42f4-9c67-5d6d42e7d1e7")
 	)
 	(wire
 		(pts
@@ -18465,7 +18469,17 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 31.75) (xy 81.28 38.1)
+			(xy 246.38 62.23) (xy 250.19 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5e09780-481d-484e-9728-bba5d033789e")
+	)
+	(wire
+		(pts
+			(xy 81.28 36.83) (xy 81.28 38.1)
 		)
 		(stroke
 			(width 0)
@@ -18545,7 +18559,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 74.93) (xy 176.53 74.93)
+			(xy 147.32 74.93) (xy 158.75 74.93)
 		)
 		(stroke
 			(width 0)
@@ -18565,7 +18579,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 31.75) (xy 96.52 38.1)
+			(xy 96.52 36.83) (xy 96.52 38.1)
 		)
 		(stroke
 			(width 0)
@@ -18645,7 +18659,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 31.75) (xy 71.12 38.1)
+			(xy 71.12 36.83) (xy 71.12 38.1)
 		)
 		(stroke
 			(width 0)
@@ -18765,7 +18779,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 31.75) (xy 73.66 38.1)
+			(xy 73.66 36.83) (xy 73.66 38.1)
 		)
 		(stroke
 			(width 0)
@@ -18825,7 +18839,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 101.6) (xy 66.04 99.06)
+			(xy 66.04 99.06) (xy 66.04 116.84)
 		)
 		(stroke
 			(width 0)
@@ -19074,7 +19088,7 @@
 		(uuid "1d33d3b2-80f9-4103-9e7a-51de8ac0e16e")
 	)
 	(label "JTAG.TMS"
-		(at 81.28 31.75 90)
+		(at 81.28 36.83 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19114,7 +19128,7 @@
 		(uuid "2243638c-f318-48eb-bc1a-18ce35e407a0")
 	)
 	(label "SPI_S_CS"
-		(at 93.98 31.75 90)
+		(at 93.98 36.83 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19164,7 +19178,7 @@
 		(uuid "26a5959d-88ba-4d92-acba-7ac3b20da61e")
 	)
 	(label "GND"
-		(at 71.12 31.75 90)
+		(at 71.12 36.83 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19364,7 +19378,7 @@
 		(uuid "37dfbda2-2b90-4921-b9e5-09b0c1b6009a")
 	)
 	(label "GPIO_0"
-		(at 101.6 31.75 90)
+		(at 101.6 36.83 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19464,7 +19478,7 @@
 		(uuid "41cdb129-d89a-4830-a7d3-ae6fc2edbe8e")
 	)
 	(label "JTAG.TDI"
-		(at 78.74 31.75 90)
+		(at 78.74 36.83 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19492,6 +19506,16 @@
 			(justify left bottom)
 		)
 		(uuid "4a728bc4-f7de-4bf3-b7cd-77cd684f2755")
+	)
+	(label "SUPPLY_DCORE_VDD"
+		(at 181.61 31.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4cde0264-7e2d-4ae8-9fd7-7968aebfa985")
 	)
 	(label "JTAG.TDI"
 		(at 177.8 130.81 90)
@@ -19554,7 +19578,7 @@
 		(uuid "55e82d18-3cc3-49c6-ac6e-1a591de8bf63")
 	)
 	(label "UART.RX"
-		(at 63.5 31.75 90)
+		(at 63.5 36.83 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19582,6 +19606,16 @@
 			(justify right bottom)
 		)
 		(uuid "58b787f9-c80e-4452-bfff-989d97fa28fb")
+	)
+	(label "GND"
+		(at 181.61 20.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5a67d5f6-af4d-4226-9cbf-9b024ac83665")
 	)
 	(label "CLOCK_coaxial"
 		(at 31.75 31.75 90)
@@ -20024,7 +20058,7 @@
 		(uuid "7edf1ad4-f85c-4531-860c-a6b800ef175f")
 	)
 	(label "JTAG.TCK"
-		(at 76.2 31.75 90)
+		(at 76.2 36.83 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20164,7 +20198,7 @@
 		(uuid "8e119608-6720-4159-8240-c3d0a0ace19a")
 	)
 	(label "UART.TX"
-		(at 66.04 31.75 90)
+		(at 66.04 36.83 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20204,7 +20238,7 @@
 		(uuid "921b71ca-c7f6-4e1e-8ff5-695a9bdf6d6a")
 	)
 	(label "SPI_S_MISO"
-		(at 88.9 31.75 90)
+		(at 88.9 36.83 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20303,6 +20337,16 @@
 		)
 		(uuid "9d5a10ba-25c2-4d19-a891-79fa8df0cee1")
 	)
+	(label "GND"
+		(at 181.61 24.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9eeec23a-ba1a-434e-9e1c-a76573d867ca")
+	)
 	(label "LC_DIR_GPIO_2"
 		(at 113.03 170.18 180)
 		(effects
@@ -20383,6 +20427,16 @@
 		)
 		(uuid "ad44add9-f3e3-4dff-a6dc-7141fb1aeb97")
 	)
+	(label "SUPPLY_IO_VDD"
+		(at 181.61 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ada8efb1-c9e6-4b30-a4f3-048ce347730b")
+	)
 	(label "nRST"
 		(at 250.19 54.61 180)
 		(effects
@@ -20414,7 +20468,7 @@
 		(uuid "afcd5109-d842-48e2-be18-f8d9c697844b")
 	)
 	(label "GND"
-		(at 99.06 31.75 90)
+		(at 99.06 36.83 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20544,7 +20598,7 @@
 		(uuid "bf0101da-8cc6-4668-9d32-cc57fcd7eadb")
 	)
 	(label "JTAG.TRST"
-		(at 83.82 31.75 90)
+		(at 83.82 36.83 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20574,7 +20628,7 @@
 		(uuid "c0802d79-407e-41fb-9511-f31c50bccf8b")
 	)
 	(label "SPI_S_SCK"
-		(at 91.44 31.75 90)
+		(at 91.44 36.83 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20584,7 +20638,7 @@
 		(uuid "c2e63c35-4e5d-4d60-a750-f533999d20e7")
 	)
 	(label "SUPPLY_IO_VDD"
-		(at 68.58 31.75 90)
+		(at 68.58 36.83 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20634,7 +20688,7 @@
 		(uuid "cd0ad639-8ea1-400f-9a12-89f818acc7dc")
 	)
 	(label "JTAG.TDO"
-		(at 73.66 31.75 90)
+		(at 73.66 36.83 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20764,7 +20818,7 @@
 		(uuid "dd874f75-f6e2-442c-b55f-6931a81b9f85")
 	)
 	(label "SPI_S_MOSI"
-		(at 86.36 31.75 90)
+		(at 86.36 36.83 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21084,7 +21138,7 @@
 		(uuid "fb987df9-15a9-4b9f-9525-48107689bd00")
 	)
 	(label "SUPPLY_DCORE_VDD"
-		(at 96.52 31.75 90)
+		(at 96.52 36.83 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21355,6 +21409,136 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
+		(at 234.95 80.01 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a1091ce-bb45-4330-91ec-0a38c709b901")
+		(property "Reference" "J34"
+			(at 230.886 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 234.95 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 234.95 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.95 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 234.95 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b92e1f32-8cbf-470e-bc5c-de5e5cbeeb5f")
+		)
+		(instances
+			(project "heepidermis-bo"
+				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
+					(reference "J34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 234.95 85.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12819e78-15a3-45c4-8825-313db7c67067")
+		(property "Reference" "J35"
+			(at 230.886 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 234.95 89.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 234.95 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.95 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 234.95 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eadfe120-ae6a-4f2d-830e-299bfaf55cc3")
+		)
+		(instances
+			(project "heepidermis-bo"
+				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
+					(reference "J35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
 		(at 26.67 120.65 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21508,6 +21692,71 @@
 			(project "heepidermis-bo"
 				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 71.12 121.92 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16a33c5c-93d5-49ea-820a-fa1566d15dbe")
+		(property "Reference" "J24"
+			(at 70.866 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 75.692 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 71.12 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 71.12 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1606aeb2-0f66-4a5b-b5ea-81068a486ed7")
+		)
+		(instances
+			(project "heepidermis-bo"
+				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
+					(reference "J24")
 					(unit 1)
 				)
 			)
@@ -21958,6 +22207,201 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 91.44 19.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "26af61ad-e092-424a-8997-7ee9341926f6")
+		(property "Reference" "J26"
+			(at 91.694 14.986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 86.868 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 91.44 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 91.44 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ec5462e-0eac-46e8-87a8-a2a6fa9df01c")
+		)
+		(instances
+			(project "heepidermis-bo"
+				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
+					(reference "J26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 88.9 19.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3bebdd91-789d-4d55-8c70-be7777e28b6c")
+		(property "Reference" "J27"
+			(at 89.154 14.986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 84.328 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 88.9 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 88.9 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abb97957-1a15-4542-b719-8d9e07c5a969")
+		)
+		(instances
+			(project "heepidermis-bo"
+				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
+					(reference "J27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 236.22 54.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45a0044a-0f9d-4cb2-aa57-28ca2d5c0f3b")
+		(property "Reference" "J33"
+			(at 232.156 54.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 236.22 59.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 236.22 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 236.22 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2bf80b83-82f1-4d2c-8cd8-f80f69951d5f")
+		)
+		(instances
+			(project "heepidermis-bo"
+				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
+					(reference "J33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 40.64 142.24 180)
 		(unit 1)
@@ -22133,6 +22577,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 93.98 19.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5023435f-a912-4ca3-a86e-21fed60e9d94")
+		(property "Reference" "J25"
+			(at 94.234 14.986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 89.408 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 93.98 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 93.98 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e130c86-bcbe-4325-b8b7-3a97ba4b80ad")
+		)
+		(instances
+			(project "heepidermis-bo"
+				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
+					(reference "J25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 116.84 143.51 0)
 		(unit 1)
@@ -22223,6 +22732,270 @@
 			(project "heepidermis-bo"
 				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 162.56 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "573990b2-97b1-45e6-b5b4-13db1a415255")
+		(property "Reference" "R7"
+			(at 161.29 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 164.846 72.644 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 162.56 76.708 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 162.56 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2ea39759-36c4-47c2-b631-248a94910761")
+		)
+		(pin "1"
+			(uuid "138746a5-d4f2-42d2-8060-9725d8d94464")
+		)
+		(instances
+			(project "heepidermis-bo"
+				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 172.72 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "57b409b6-be50-4eb8-920e-9e86755bf023")
+		(property "Reference" "R6"
+			(at 171.45 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 175.006 47.244 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 172.72 51.308 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 172.72 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0aa5d5fb-ede3-4d9f-b32e-88435b398f27")
+		)
+		(pin "1"
+			(uuid "0080b1cd-a369-4fb7-b69e-beb6d3bcd89d")
+		)
+		(instances
+			(project "heepidermis-bo"
+				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 86.36 19.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59402cc7-566a-4a2d-a4e8-05f20703df90")
+		(property "Reference" "J28"
+			(at 86.614 14.986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 81.788 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 86.36 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 86.36 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8606ebfc-e3d2-4c02-8d39-33d57012437b")
+		)
+		(instances
+			(project "heepidermis-bo"
+				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
+					(reference "J28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 186.69 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5aa1775f-e84c-47fc-9b47-6c79e11daad3")
+		(property "Reference" "J30"
+			(at 190.754 24.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 186.69 19.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 186.69 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 186.69 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f40c84d1-51a6-4ec6-98b5-57fad37a6a4d")
+		)
+		(instances
+			(project "heepidermis-bo"
+				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
+					(reference "J30")
 					(unit 1)
 				)
 			)
@@ -23212,6 +23985,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 186.69 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86d1f7eb-fdb2-46ca-bef7-aa2fa3846ff6")
+		(property "Reference" "J32"
+			(at 190.754 32.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 186.69 27.178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 186.69 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 186.69 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c85e0e58-c191-4111-aab7-5bd977046db0")
+		)
+		(instances
+			(project "heepidermis-bo"
+				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
+					(reference "J32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 51.435 187.96 0)
 		(unit 1)
@@ -23642,6 +24480,71 @@
 			(project "heepidermis-bo"
 				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 241.3 67.31 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac6b7d42-65c2-4325-8b99-e5da1317a7f0")
+		(property "Reference" "J36"
+			(at 237.236 67.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 241.3 71.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 241.3 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 241.3 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62602426-6a32-4741-b342-85ca1071f0f1")
+		)
+		(instances
+			(project "heepidermis-bo"
+				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
+					(reference "J36")
 					(unit 1)
 				)
 			)
@@ -24264,6 +25167,136 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 63.5 121.92 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca968392-e993-4f69-b49c-5397f5e852e9")
+		(property "Reference" "J3"
+			(at 63.246 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 68.072 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 63.5 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 63.5 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3c5d8fb-946c-4dc9-94ee-91af39606020")
+		)
+		(instances
+			(project "heepidermis-bo"
+				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 66.04 121.92 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cbe36e18-c0e9-4368-ad94-5533d5b3cac8")
+		(property "Reference" "J4"
+			(at 65.786 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 70.612 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 66.04 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 66.04 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0dbdf29-cae1-4b52-bdad-e4faf61d1ed3")
+		)
+		(instances
+			(project "heepidermis-bo"
+				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 86.36 151.13 270)
 		(unit 1)
@@ -24344,7 +25377,7 @@
 		(dnp no)
 		(uuid "cff47ac9-ee8d-4dfc-a77a-ad8255da2978")
 		(property "Reference" "J8"
-			(at 136.144 25.654 0)
+			(at 137.16 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24467,6 +25500,136 @@
 			(project "heepidermis-bo"
 				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
 					(reference "#PWR3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 68.58 121.92 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e33dfecf-64d5-47bd-b2d6-d99bbda29200")
+		(property "Reference" "J16"
+			(at 68.326 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 73.152 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 68.58 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 68.58 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f701544b-078b-4bfa-9301-6a598a65641f")
+		)
+		(instances
+			(project "heepidermis-bo"
+				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 186.69 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3982079-1d36-4e3f-8664-28c2ecebfb40")
+		(property "Reference" "J31"
+			(at 190.754 28.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 186.69 23.368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 186.69 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 186.69 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2453afda-72e0-47d4-9ef4-fe2143058946")
+		)
+		(instances
+			(project "heepidermis-bo"
+				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
+					(reference "J31")
 					(unit 1)
 				)
 			)
@@ -24668,6 +25831,71 @@
 			(project "heepidermis-bo"
 				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
 					(reference "#PWR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 186.69 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe2dd064-1544-4569-81df-46b12467b726")
+		(property "Reference" "J29"
+			(at 190.754 20.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 186.69 15.748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 186.69 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 186.69 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97de6773-5c60-452a-9f2f-bab24706e2bd")
+		)
+		(instances
+			(project "heepidermis-bo"
+				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
+					(reference "J29")
 					(unit 1)
 				)
 			)

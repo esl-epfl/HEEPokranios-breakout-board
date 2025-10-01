@@ -58,24 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "clearance|135242500|100672500|cca61624-04bb-4830-9d50-339e22d3015e|36db557b-f736-4c65-9c76-308eeaa6164a",
-          ""
-        ],
-        [
-          "courtyards_overlap|130995000|92645000|1d7710a3-7ab4-48c6-86ca-6e6dc34d9b09|1d812511-5972-47fc-a6dc-767081e25d61",
-          ""
-        ],
-        [
-          "courtyards_overlap|131847500|95585000|8057e891-a332-45de-bdb9-9fa5030a9283|fac2cf6b-a38b-4e85-9f02-4f5ac51045da",
-          ""
-        ],
-        [
-          "solder_mask_bridge|135242500|100672500|cca61624-04bb-4830-9d50-339e22d3015e|36db557b-f736-4c65-9c76-308eeaa6164a",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -625,7 +608,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "GRB",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
