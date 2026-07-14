@@ -493,9 +493,12 @@
   "libraries": {
     "pinned_footprint_libs": [
       "X-HEEP",
-      "PGA_socket"
+      "PGA_socket",
+      "ESL-EPFL"
     ],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "cheep_board_connector"
+    ]
   },
   "meta": {
     "filename": "heepokranios-bo.kicad_pro",
