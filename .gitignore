@@ -2,3 +2,6 @@ pcb/core-v-mini-mcu-spiboot-fpga-backups
 .DS_Store
 *backups*
 *.lck
+*auto_saved_files*
+*-cache
+_autosave*
