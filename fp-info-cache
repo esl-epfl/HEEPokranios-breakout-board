@@ -1,4 +1,4 @@
-24732368905980087
+24713303651663217
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -69754,6 +69754,13 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
+PGA_socket
+100PGM1306110
+100-PGM13061-10-1
+Connector
+0
+100
+100
 Package_BGA
 Alliance_TFBGA-36_6x8mm_Layout6x8_P0.75mm
 Alliance TFBGA-36, NSMD, 6.0x8.0mm, 36 Ball, 6x8 Layout, 0.75mm Pitch, https://www.alliancememory.com/wp-content/uploads/pdf/AS6C1008_Mar_2023V1.2.pdf
@@ -99350,150 +99357,66 @@ Varistor VF
 0
 2
 2
-heep_footprints
+X-HEEP
 BIWIN_DTS04GE_SMD
 
 
 0
 6
 6
-heep_footprints
-CHEEP_CONNECTOR_CHIPBOARD_2ROW_HEEPIDERMIS
-CHEEP Connector, Chip Board Side, only 2 rows with subsegment for Heepidermis
-Through hole angled socket strip THT 2x40 2.54mm double row
-0
-66
-66
-heep_footprints
-CHEEP_CONNECTOR_MAINBOARD
-CHEEP Connector, Main Board Side, all 3 rows with full pinout
+X-HEEP
+Conn_02x50_Horizontal_Pin_Header_Male
+
 
 0
-150
-150
-heep_footprints
-CONN_502598-3393_MOL
-
-5025983393 
-0
-35
-35
-heep_footprints
+180
+100
+X-HEEP
 EPFL
 
 
 0
 0
 0
-heep_footprints
-EPFL_2x7
-
-
-0
-0
-0
-heep_footprints
-EPFL_3x1
-
-
-0
-0
-0
-heep_footprints
+X-HEEP
 ESL
 
 
 0
 0
 0
-heep_footprints
-ESL_3x3
-
-
-0
-0
-0
-heep_footprints
-PGA_12x12_
-
-
-0
-3
-3
-heep_footprints
-SPDT-2pos-CAS-D20B1
-
-
-0
-6
-6
-heep_footprints
+X-HEEP
 TI-UQFN-16
 
 
 0
 16
 16
-heep_footprints
+X-HEEP
 TI-VQFN-HR-12
 
 
 0
 12
 12
-heep_footprints
-VSSOP-10_3x3mm_P0.5mm_sch
-VSSOP, 10 Pin (http://www.ti.com/lit/ds/symlink/ads1115.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
-VSSOP SO
-0
-10
-10
-heep_footprints
-adc-dac
-
-
-0
-40
-40
-heep_footprints
-chewing-gum
-
-
-0
-21
-21
-heep_footprints
+X-HEEP
 heep_cover
 
 
 0
 0
 0
-heep_footprints
+X-HEEP
 heepocrates_back_cover
 
 
 0
 0
 0
-heep_footprints
+X-HEEP
 heepocrates_logo
 
 
 0
 0
 0
-heep_footprints
-leprechaun
-
-
-0
-0
-0
-sockets
-CONN_5205_3MM
-
-264-5205-01 
-0
-67
-67
