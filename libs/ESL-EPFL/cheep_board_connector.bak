@@ -87,14 +87,14 @@
 			(pin passive line
 				(at 1.27 29.21 90)
 				(length 3.81)
-				(name "C1"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "101"
+				(number "C1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -105,14 +105,14 @@
 			(pin passive line
 				(at 1.27 12.7 90)
 				(length 3.81)
-				(name "B1"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "51"
+				(number "B1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -123,14 +123,14 @@
 			(pin passive line
 				(at 1.27 -3.81 90)
 				(length 3.81)
-				(name "A1"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "A1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -141,14 +141,14 @@
 			(pin passive line
 				(at 3.81 29.21 90)
 				(length 3.81)
-				(name "C2"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "102"
+				(number "C2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -159,14 +159,14 @@
 			(pin passive line
 				(at 3.81 12.7 90)
 				(length 3.81)
-				(name "B2"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "52"
+				(number "B2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -177,14 +177,14 @@
 			(pin passive line
 				(at 3.81 -3.81 90)
 				(length 3.81)
-				(name "A2"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
+				(number "A2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -195,14 +195,14 @@
 			(pin passive line
 				(at 6.35 29.21 90)
 				(length 3.81)
-				(name "C3"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "103"
+				(number "C3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -213,14 +213,14 @@
 			(pin passive line
 				(at 6.35 12.7 90)
 				(length 3.81)
-				(name "B3"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "53"
+				(number "B3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -231,14 +231,14 @@
 			(pin passive line
 				(at 6.35 -3.81 90)
 				(length 3.81)
-				(name "A3"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "A3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -249,14 +249,14 @@
 			(pin passive line
 				(at 8.89 29.21 90)
 				(length 3.81)
-				(name "C4"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "104"
+				(number "C4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -267,14 +267,14 @@
 			(pin passive line
 				(at 8.89 12.7 90)
 				(length 3.81)
-				(name "B4"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "54"
+				(number "B4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -285,14 +285,14 @@
 			(pin passive line
 				(at 8.89 -3.81 90)
 				(length 3.81)
-				(name "A4"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "A4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -303,14 +303,14 @@
 			(pin passive line
 				(at 11.43 29.21 90)
 				(length 3.81)
-				(name "C5"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "105"
+				(number "C5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -321,14 +321,14 @@
 			(pin passive line
 				(at 11.43 12.7 90)
 				(length 3.81)
-				(name "B5"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "55"
+				(number "B5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -339,14 +339,14 @@
 			(pin passive line
 				(at 11.43 -3.81 90)
 				(length 3.81)
-				(name "A5"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
+				(number "A5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -357,14 +357,14 @@
 			(pin passive line
 				(at 13.97 29.21 90)
 				(length 3.81)
-				(name "C6"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "106"
+				(number "C6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -375,14 +375,14 @@
 			(pin passive line
 				(at 13.97 12.7 90)
 				(length 3.81)
-				(name "B6"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "56"
+				(number "B6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -393,14 +393,14 @@
 			(pin passive line
 				(at 13.97 -3.81 90)
 				(length 3.81)
-				(name "A6"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "6"
+				(number "A6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -411,14 +411,14 @@
 			(pin passive line
 				(at 16.51 29.21 90)
 				(length 3.81)
-				(name "C7"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "107"
+				(number "C7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -429,14 +429,14 @@
 			(pin passive line
 				(at 16.51 12.7 90)
 				(length 3.81)
-				(name "B7"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "57"
+				(number "B7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -447,14 +447,14 @@
 			(pin passive line
 				(at 16.51 -3.81 90)
 				(length 3.81)
-				(name "A7"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "7"
+				(number "A7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -465,14 +465,14 @@
 			(pin passive line
 				(at 19.05 29.21 90)
 				(length 3.81)
-				(name "C8"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "108"
+				(number "C8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -483,14 +483,14 @@
 			(pin passive line
 				(at 19.05 12.7 90)
 				(length 3.81)
-				(name "B8"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "58"
+				(number "B8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -501,14 +501,14 @@
 			(pin passive line
 				(at 19.05 -3.81 90)
 				(length 3.81)
-				(name "A8"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "8"
+				(number "A8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -519,14 +519,14 @@
 			(pin passive line
 				(at 21.59 29.21 90)
 				(length 3.81)
-				(name "C9"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "109"
+				(number "C9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -537,14 +537,14 @@
 			(pin passive line
 				(at 21.59 12.7 90)
 				(length 3.81)
-				(name "B9"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "59"
+				(number "B9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -555,14 +555,14 @@
 			(pin passive line
 				(at 21.59 -3.81 90)
 				(length 3.81)
-				(name "A9"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "9"
+				(number "A9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -573,14 +573,14 @@
 			(pin passive line
 				(at 24.13 29.21 90)
 				(length 3.81)
-				(name "C10"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "110"
+				(number "C10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -591,14 +591,14 @@
 			(pin passive line
 				(at 24.13 12.7 90)
 				(length 3.81)
-				(name "B10"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "60"
+				(number "B10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -609,14 +609,14 @@
 			(pin passive line
 				(at 24.13 -3.81 90)
 				(length 3.81)
-				(name "A10"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "10"
+				(number "A10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -627,14 +627,14 @@
 			(pin passive line
 				(at 26.67 29.21 90)
 				(length 3.81)
-				(name "C11"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "111"
+				(number "C11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -645,14 +645,14 @@
 			(pin passive line
 				(at 26.67 12.7 90)
 				(length 3.81)
-				(name "B11"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "61"
+				(number "B11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -663,14 +663,14 @@
 			(pin passive line
 				(at 26.67 -3.81 90)
 				(length 3.81)
-				(name "A11"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "11"
+				(number "A11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -681,14 +681,14 @@
 			(pin passive line
 				(at 29.21 29.21 90)
 				(length 3.81)
-				(name "C12"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "112"
+				(number "C12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -699,14 +699,14 @@
 			(pin passive line
 				(at 29.21 12.7 90)
 				(length 3.81)
-				(name "B12"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "62"
+				(number "B12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -717,14 +717,14 @@
 			(pin passive line
 				(at 29.21 -3.81 90)
 				(length 3.81)
-				(name "A12"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "12"
+				(number "A12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -735,14 +735,14 @@
 			(pin passive line
 				(at 31.75 29.21 90)
 				(length 3.81)
-				(name "C13"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "113"
+				(number "C13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -753,14 +753,14 @@
 			(pin passive line
 				(at 31.75 12.7 90)
 				(length 3.81)
-				(name "B13"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "63"
+				(number "B13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -771,14 +771,14 @@
 			(pin passive line
 				(at 31.75 -3.81 90)
 				(length 3.81)
-				(name "A13"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "13"
+				(number "A13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -789,14 +789,14 @@
 			(pin passive line
 				(at 34.29 29.21 90)
 				(length 3.81)
-				(name "C14"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "114"
+				(number "C14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -807,14 +807,14 @@
 			(pin passive line
 				(at 34.29 12.7 90)
 				(length 3.81)
-				(name "B14"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "64"
+				(number "B14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -825,14 +825,14 @@
 			(pin passive line
 				(at 34.29 -3.81 90)
 				(length 3.81)
-				(name "A14"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "14"
+				(number "A14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -843,14 +843,14 @@
 			(pin passive line
 				(at 36.83 29.21 90)
 				(length 3.81)
-				(name "C15"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "115"
+				(number "C15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -861,14 +861,14 @@
 			(pin passive line
 				(at 36.83 12.7 90)
 				(length 3.81)
-				(name "B15"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "65"
+				(number "B15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -879,14 +879,14 @@
 			(pin passive line
 				(at 36.83 -3.81 90)
 				(length 3.81)
-				(name "A15"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "15"
+				(number "A15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -897,14 +897,14 @@
 			(pin passive line
 				(at 39.37 29.21 90)
 				(length 3.81)
-				(name "C16"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "116"
+				(number "C16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -915,14 +915,14 @@
 			(pin passive line
 				(at 39.37 12.7 90)
 				(length 3.81)
-				(name "B16"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "66"
+				(number "B16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -933,14 +933,14 @@
 			(pin passive line
 				(at 39.37 -3.81 90)
 				(length 3.81)
-				(name "A16"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "16"
+				(number "A16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -951,14 +951,14 @@
 			(pin passive line
 				(at 41.91 29.21 90)
 				(length 3.81)
-				(name "C17"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "117"
+				(number "C17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -969,14 +969,14 @@
 			(pin passive line
 				(at 41.91 12.7 90)
 				(length 3.81)
-				(name "B17"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "67"
+				(number "B17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -987,14 +987,14 @@
 			(pin passive line
 				(at 41.91 -3.81 90)
 				(length 3.81)
-				(name "A17"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "17"
+				(number "A17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1005,14 +1005,14 @@
 			(pin passive line
 				(at 44.45 29.21 90)
 				(length 3.81)
-				(name "C18"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "118"
+				(number "C18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1023,14 +1023,14 @@
 			(pin passive line
 				(at 44.45 12.7 90)
 				(length 3.81)
-				(name "B18"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "68"
+				(number "B18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1041,14 +1041,14 @@
 			(pin passive line
 				(at 44.45 -3.81 90)
 				(length 3.81)
-				(name "A18"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "18"
+				(number "A18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1059,14 +1059,14 @@
 			(pin passive line
 				(at 46.99 29.21 90)
 				(length 3.81)
-				(name "C19"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "119"
+				(number "C19"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1077,14 +1077,14 @@
 			(pin passive line
 				(at 46.99 12.7 90)
 				(length 3.81)
-				(name "B19"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "69"
+				(number "B19"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1095,14 +1095,14 @@
 			(pin passive line
 				(at 46.99 -3.81 90)
 				(length 3.81)
-				(name "A19"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "19"
+				(number "A19"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1113,14 +1113,14 @@
 			(pin passive line
 				(at 49.53 29.21 90)
 				(length 3.81)
-				(name "C20"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "120"
+				(number "C20"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1131,14 +1131,14 @@
 			(pin passive line
 				(at 49.53 12.7 90)
 				(length 3.81)
-				(name "B20"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "70"
+				(number "B20"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1149,14 +1149,14 @@
 			(pin passive line
 				(at 49.53 -3.81 90)
 				(length 3.81)
-				(name "A20"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "20"
+				(number "A20"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1167,14 +1167,14 @@
 			(pin passive line
 				(at 52.07 29.21 90)
 				(length 3.81)
-				(name "C21"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "121"
+				(number "C21"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1185,14 +1185,14 @@
 			(pin passive line
 				(at 52.07 12.7 90)
 				(length 3.81)
-				(name "B21"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "71"
+				(number "B21"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1203,14 +1203,14 @@
 			(pin passive line
 				(at 52.07 -3.81 90)
 				(length 3.81)
-				(name "A21"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "21"
+				(number "A21"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1221,14 +1221,14 @@
 			(pin passive line
 				(at 54.61 29.21 90)
 				(length 3.81)
-				(name "C22"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "122"
+				(number "C22"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1239,14 +1239,14 @@
 			(pin passive line
 				(at 54.61 12.7 90)
 				(length 3.81)
-				(name "B22"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "72"
+				(number "B22"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1257,14 +1257,14 @@
 			(pin passive line
 				(at 54.61 -3.81 90)
 				(length 3.81)
-				(name "A22"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "22"
+				(number "A22"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1275,14 +1275,14 @@
 			(pin passive line
 				(at 57.15 29.21 90)
 				(length 3.81)
-				(name "C23"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "123"
+				(number "C23"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1293,14 +1293,14 @@
 			(pin passive line
 				(at 57.15 12.7 90)
 				(length 3.81)
-				(name "B23"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "73"
+				(number "B23"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1311,14 +1311,14 @@
 			(pin passive line
 				(at 57.15 -3.81 90)
 				(length 3.81)
-				(name "A23"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "23"
+				(number "A23"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1329,14 +1329,14 @@
 			(pin passive line
 				(at 59.69 29.21 90)
 				(length 3.81)
-				(name "C24"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "124"
+				(number "C24"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1347,14 +1347,14 @@
 			(pin passive line
 				(at 59.69 12.7 90)
 				(length 3.81)
-				(name "B24"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "74"
+				(number "B24"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1365,14 +1365,14 @@
 			(pin passive line
 				(at 59.69 -3.81 90)
 				(length 3.81)
-				(name "A24"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "24"
+				(number "A24"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1383,14 +1383,14 @@
 			(pin passive line
 				(at 62.23 29.21 90)
 				(length 3.81)
-				(name "C25"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "125"
+				(number "C25"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1401,14 +1401,14 @@
 			(pin passive line
 				(at 62.23 12.7 90)
 				(length 3.81)
-				(name "B25"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "75"
+				(number "B25"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1419,14 +1419,14 @@
 			(pin passive line
 				(at 62.23 -3.81 90)
 				(length 3.81)
-				(name "A25"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "25"
+				(number "A25"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1437,14 +1437,14 @@
 			(pin passive line
 				(at 64.77 29.21 90)
 				(length 3.81)
-				(name "C26"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "126"
+				(number "C26"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1455,14 +1455,14 @@
 			(pin passive line
 				(at 64.77 12.7 90)
 				(length 3.81)
-				(name "B26"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "76"
+				(number "B26"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1473,14 +1473,14 @@
 			(pin passive line
 				(at 64.77 -3.81 90)
 				(length 3.81)
-				(name "A26"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "26"
+				(number "A26"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1491,14 +1491,14 @@
 			(pin passive line
 				(at 67.31 29.21 90)
 				(length 3.81)
-				(name "C27"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "127"
+				(number "C27"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1509,14 +1509,14 @@
 			(pin passive line
 				(at 67.31 12.7 90)
 				(length 3.81)
-				(name "B27"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "77"
+				(number "B27"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1527,14 +1527,14 @@
 			(pin passive line
 				(at 67.31 -3.81 90)
 				(length 3.81)
-				(name "A27"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "27"
+				(number "A27"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1545,14 +1545,14 @@
 			(pin passive line
 				(at 69.85 29.21 90)
 				(length 3.81)
-				(name "C28"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "128"
+				(number "C28"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1563,14 +1563,14 @@
 			(pin passive line
 				(at 69.85 12.7 90)
 				(length 3.81)
-				(name "B28"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "78"
+				(number "B28"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1581,14 +1581,14 @@
 			(pin passive line
 				(at 69.85 -3.81 90)
 				(length 3.81)
-				(name "A28"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "28"
+				(number "A28"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1599,14 +1599,14 @@
 			(pin passive line
 				(at 72.39 29.21 90)
 				(length 3.81)
-				(name "C29"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "129"
+				(number "C29"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1617,14 +1617,14 @@
 			(pin passive line
 				(at 72.39 12.7 90)
 				(length 3.81)
-				(name "B29"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "79"
+				(number "B29"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1635,14 +1635,14 @@
 			(pin passive line
 				(at 72.39 -3.81 90)
 				(length 3.81)
-				(name "A29"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "29"
+				(number "A29"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1653,14 +1653,14 @@
 			(pin passive line
 				(at 74.93 29.21 90)
 				(length 3.81)
-				(name "C30"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "130"
+				(number "C30"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1671,14 +1671,14 @@
 			(pin passive line
 				(at 74.93 12.7 90)
 				(length 3.81)
-				(name "B30"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "80"
+				(number "B30"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1689,14 +1689,14 @@
 			(pin passive line
 				(at 74.93 -3.81 90)
 				(length 3.81)
-				(name "A30"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "30"
+				(number "A30"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1707,14 +1707,14 @@
 			(pin passive line
 				(at 77.47 29.21 90)
 				(length 3.81)
-				(name "C31"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "131"
+				(number "C31"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1725,14 +1725,14 @@
 			(pin passive line
 				(at 77.47 12.7 90)
 				(length 3.81)
-				(name "B31"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "81"
+				(number "B31"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1743,14 +1743,14 @@
 			(pin passive line
 				(at 77.47 -3.81 90)
 				(length 3.81)
-				(name "A31"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "31"
+				(number "A31"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1761,14 +1761,14 @@
 			(pin passive line
 				(at 80.01 29.21 90)
 				(length 3.81)
-				(name "C32"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "132"
+				(number "C32"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1779,14 +1779,14 @@
 			(pin passive line
 				(at 80.01 12.7 90)
 				(length 3.81)
-				(name "B32"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "82"
+				(number "B32"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1797,14 +1797,14 @@
 			(pin passive line
 				(at 80.01 -3.81 90)
 				(length 3.81)
-				(name "A32"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "32"
+				(number "A32"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1815,14 +1815,14 @@
 			(pin passive line
 				(at 82.55 29.21 90)
 				(length 3.81)
-				(name "C33"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "133"
+				(number "C33"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1833,14 +1833,14 @@
 			(pin passive line
 				(at 82.55 12.7 90)
 				(length 3.81)
-				(name "B33"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "83"
+				(number "B33"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1851,14 +1851,14 @@
 			(pin passive line
 				(at 82.55 -3.81 90)
 				(length 3.81)
-				(name "A33"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "33"
+				(number "A33"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1869,14 +1869,14 @@
 			(pin passive line
 				(at 85.09 29.21 90)
 				(length 3.81)
-				(name "C34"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "134"
+				(number "C34"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1887,14 +1887,14 @@
 			(pin passive line
 				(at 85.09 12.7 90)
 				(length 3.81)
-				(name "B34"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "84"
+				(number "B34"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1905,14 +1905,14 @@
 			(pin passive line
 				(at 85.09 -3.81 90)
 				(length 3.81)
-				(name "A34"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "34"
+				(number "A34"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1923,14 +1923,14 @@
 			(pin passive line
 				(at 87.63 29.21 90)
 				(length 3.81)
-				(name "C35"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "135"
+				(number "C35"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1941,14 +1941,14 @@
 			(pin passive line
 				(at 87.63 12.7 90)
 				(length 3.81)
-				(name "B35"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "85"
+				(number "B35"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1959,14 +1959,14 @@
 			(pin passive line
 				(at 87.63 -3.81 90)
 				(length 3.81)
-				(name "A35"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "35"
+				(number "A35"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1977,14 +1977,14 @@
 			(pin passive line
 				(at 90.17 29.21 90)
 				(length 3.81)
-				(name "C36"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "136"
+				(number "C36"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1995,14 +1995,14 @@
 			(pin passive line
 				(at 90.17 12.7 90)
 				(length 3.81)
-				(name "B36"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "86"
+				(number "B36"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2013,14 +2013,14 @@
 			(pin passive line
 				(at 90.17 -3.81 90)
 				(length 3.81)
-				(name "A36"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "36"
+				(number "A36"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2031,14 +2031,14 @@
 			(pin passive line
 				(at 92.71 29.21 90)
 				(length 3.81)
-				(name "C37"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "137"
+				(number "C37"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2049,14 +2049,14 @@
 			(pin passive line
 				(at 92.71 12.7 90)
 				(length 3.81)
-				(name "B37"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "87"
+				(number "B37"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2067,14 +2067,14 @@
 			(pin passive line
 				(at 92.71 -3.81 90)
 				(length 3.81)
-				(name "A37"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "37"
+				(number "A37"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2085,14 +2085,14 @@
 			(pin passive line
 				(at 95.25 29.21 90)
 				(length 3.81)
-				(name "C38"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "138"
+				(number "C38"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2103,14 +2103,14 @@
 			(pin passive line
 				(at 95.25 12.7 90)
 				(length 3.81)
-				(name "B38"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "88"
+				(number "B38"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2121,14 +2121,14 @@
 			(pin passive line
 				(at 95.25 -3.81 90)
 				(length 3.81)
-				(name "A38"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "38"
+				(number "A38"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2139,14 +2139,14 @@
 			(pin passive line
 				(at 97.79 29.21 90)
 				(length 3.81)
-				(name "C39"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "139"
+				(number "C39"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2157,14 +2157,14 @@
 			(pin passive line
 				(at 97.79 12.7 90)
 				(length 3.81)
-				(name "B39"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "89"
+				(number "B39"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2175,14 +2175,14 @@
 			(pin passive line
 				(at 97.79 -3.81 90)
 				(length 3.81)
-				(name "A39"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "39"
+				(number "A39"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2193,14 +2193,14 @@
 			(pin passive line
 				(at 100.33 29.21 90)
 				(length 3.81)
-				(name "C40"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "140"
+				(number "C40"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2211,14 +2211,14 @@
 			(pin passive line
 				(at 100.33 12.7 90)
 				(length 3.81)
-				(name "B40"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "90"
+				(number "B40"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2229,14 +2229,14 @@
 			(pin passive line
 				(at 100.33 -3.81 90)
 				(length 3.81)
-				(name "A40"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "40"
+				(number "A40"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2247,14 +2247,14 @@
 			(pin passive line
 				(at 102.87 29.21 90)
 				(length 3.81)
-				(name "C41"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "141"
+				(number "C41"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2265,14 +2265,14 @@
 			(pin passive line
 				(at 102.87 12.7 90)
 				(length 3.81)
-				(name "B41"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "91"
+				(number "B41"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2283,14 +2283,14 @@
 			(pin passive line
 				(at 102.87 -3.81 90)
 				(length 3.81)
-				(name "A41"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "41"
+				(number "A41"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2301,14 +2301,14 @@
 			(pin passive line
 				(at 105.41 29.21 90)
 				(length 3.81)
-				(name "C42"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "142"
+				(number "C42"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2319,14 +2319,14 @@
 			(pin passive line
 				(at 105.41 12.7 90)
 				(length 3.81)
-				(name "B42"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "92"
+				(number "B42"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2337,14 +2337,14 @@
 			(pin passive line
 				(at 105.41 -3.81 90)
 				(length 3.81)
-				(name "A42"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "42"
+				(number "A42"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2355,14 +2355,14 @@
 			(pin passive line
 				(at 107.95 29.21 90)
 				(length 3.81)
-				(name "C43"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "143"
+				(number "C43"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2373,14 +2373,14 @@
 			(pin passive line
 				(at 107.95 12.7 90)
 				(length 3.81)
-				(name "B43"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "93"
+				(number "B43"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2391,14 +2391,14 @@
 			(pin passive line
 				(at 107.95 -3.81 90)
 				(length 3.81)
-				(name "A43"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "43"
+				(number "A43"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2409,14 +2409,14 @@
 			(pin passive line
 				(at 110.49 29.21 90)
 				(length 3.81)
-				(name "C44"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "144"
+				(number "C44"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2427,14 +2427,14 @@
 			(pin passive line
 				(at 110.49 12.7 90)
 				(length 3.81)
-				(name "B44"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "94"
+				(number "B44"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2445,14 +2445,14 @@
 			(pin passive line
 				(at 110.49 -3.81 90)
 				(length 3.81)
-				(name "A44"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "44"
+				(number "A44"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2463,14 +2463,14 @@
 			(pin passive line
 				(at 113.03 29.21 90)
 				(length 3.81)
-				(name "C45"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "145"
+				(number "C45"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2481,14 +2481,14 @@
 			(pin passive line
 				(at 113.03 12.7 90)
 				(length 3.81)
-				(name "B45"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "95"
+				(number "B45"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2499,14 +2499,14 @@
 			(pin passive line
 				(at 113.03 -3.81 90)
 				(length 3.81)
-				(name "A45"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "45"
+				(number "A45"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2517,14 +2517,14 @@
 			(pin passive line
 				(at 115.57 29.21 90)
 				(length 3.81)
-				(name "C46"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "146"
+				(number "C46"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2535,14 +2535,14 @@
 			(pin passive line
 				(at 115.57 12.7 90)
 				(length 3.81)
-				(name "B46"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "96"
+				(number "B46"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2553,14 +2553,14 @@
 			(pin passive line
 				(at 115.57 -3.81 90)
 				(length 3.81)
-				(name "A46"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "46"
+				(number "A46"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2571,14 +2571,14 @@
 			(pin passive line
 				(at 118.11 29.21 90)
 				(length 3.81)
-				(name "C47"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "147"
+				(number "C47"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2589,14 +2589,14 @@
 			(pin passive line
 				(at 118.11 12.7 90)
 				(length 3.81)
-				(name "B47"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "97"
+				(number "B47"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2607,14 +2607,14 @@
 			(pin passive line
 				(at 118.11 -3.81 90)
 				(length 3.81)
-				(name "A47"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "47"
+				(number "A47"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2625,14 +2625,14 @@
 			(pin passive line
 				(at 120.65 29.21 90)
 				(length 3.81)
-				(name "C48"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "148"
+				(number "C48"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2643,14 +2643,14 @@
 			(pin passive line
 				(at 120.65 12.7 90)
 				(length 3.81)
-				(name "B48"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "98"
+				(number "B48"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2661,14 +2661,14 @@
 			(pin passive line
 				(at 120.65 -3.81 90)
 				(length 3.81)
-				(name "A48"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "48"
+				(number "A48"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2679,14 +2679,14 @@
 			(pin passive line
 				(at 123.19 29.21 90)
 				(length 3.81)
-				(name "C49"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "149"
+				(number "C49"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2697,14 +2697,14 @@
 			(pin passive line
 				(at 123.19 12.7 90)
 				(length 3.81)
-				(name "B49"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "99"
+				(number "B49"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2715,14 +2715,14 @@
 			(pin passive line
 				(at 123.19 -3.81 90)
 				(length 3.81)
-				(name "A49"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "49"
+				(number "A49"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2733,14 +2733,14 @@
 			(pin passive line
 				(at 125.73 29.21 90)
 				(length 3.81)
-				(name "C50"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "150"
+				(number "C50"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2751,14 +2751,14 @@
 			(pin passive line
 				(at 125.73 12.7 90)
 				(length 3.81)
-				(name "B50"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "100"
+				(number "B50"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2769,14 +2769,14 @@
 			(pin passive line
 				(at 125.73 -3.81 90)
 				(length 3.81)
-				(name "A50"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "50"
+				(number "A50"
 					(effects
 						(font
 							(size 1.27 1.27)

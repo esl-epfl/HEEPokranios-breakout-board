@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 13,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
@@ -46,7 +46,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_0ffc3f20_77fdd57f",
+    "visible_layers": "00000000_00000000_0ffc3f2a_ffffffff",
     "zone_display_mode": 1
   },
   "git": {
@@ -56,7 +56,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "heepidermis-bo.kicad_prl",
+    "filename": "heepokranios-bo.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {

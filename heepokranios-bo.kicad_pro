@@ -497,7 +497,9 @@
       "ESL-EPFL"
     ],
     "pinned_symbol_libs": [
-      "cheep_board_connector"
+      "cheep_board_connector",
+      "PGA_socket",
+      "heepokranios-bo-library"
     ]
   },
   "meta": {
