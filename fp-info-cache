@@ -1,4 +1,4 @@
-24702599543426839
+24706167812163903
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -69777,7 +69777,7 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 4
 PGA_socket
 PGA_13x13
-100-PGM13061-10-1
+CPGA packaging from KYOCERA
 Connector
 0
 169
@@ -99377,4 +99377,18 @@ Panasonic VF series varistor, 6x8mm body, 3.2mm height, https://mediap.industry.
 Varistor VF
 0
 2
+2
+heepokranios-bo-library
+Conn_3x03
+
+
+0
+9
+9
+heepokranios-bo-library
+SMA_w_tp
+
+
+0
+6
 2
