@@ -3501,7 +3501,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "26c59664-e22d-4dcd-956d-59225d28b291")
-		(at 179.2576 -43.67)
+		(at 40.64 137.16)
 		(descr "Through hole straight pin header, 2x03, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x03 2.54mm double row")
 		(property "Reference" "J3"
@@ -4864,7 +4864,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "2e5cc2bc-ffab-4cbd-b0fe-68c7042f0495")
-		(at 200.8576 -43.67)
+		(at 71.12 137.16)
 		(descr "Through hole straight pin header, 2x03, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x03 2.54mm double row")
 		(property "Reference" "J8"
@@ -5718,7 +5718,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "300830d0-2111-4e6a-8218-fd11eb5337d0")
-		(at 193.6576 -43.67)
+		(at 60.96 137.16)
 		(descr "Through hole straight pin header, 2x03, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x03 2.54mm double row")
 		(property "Reference" "J5"
@@ -12493,11 +12493,11 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "5463afbf-cbc9-4b0f-92cb-fd6bb52c7240")
-		(at 208.6076 -16.84)
+		(at 68.58 83.82 90)
 		(descr "Through hole straight pin header, 2x02, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x02 2.54mm double row")
 		(property "Reference" "J2"
-			(at 1.27 -2.33 0)
+			(at 5.08 2.54 180)
 			(layer "F.SilkS")
 			(uuid "8d902a26-31c1-41f4-bc7d-ecf702d71224")
 			(effects
@@ -12508,7 +12508,7 @@
 			)
 		)
 		(property "Value" "Conn_02x02_Odd_Even"
-			(at 1.27 4.87 0)
+			(at 1.27 4.87 90)
 			(layer "F.Fab")
 			(uuid "86243e7f-62c7-431d-bd10-bd26e55b2653")
 			(effects
@@ -12519,7 +12519,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -12532,7 +12532,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -12549,6 +12549,26 @@
 		(sheetname "/")
 		(sheetfile "heepokranios-bo.kicad_sch")
 		(attr through_hole)
+		(fp_line
+			(start 3.87 -1.33)
+			(end 3.87 3.87)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e6380e26-b6a1-4538-bbb3-a10af84ed38d")
+		)
+		(fp_line
+			(start 1.27 -1.33)
+			(end 3.87 -1.33)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3f12ab72-75f2-4566-9457-f8a8622fc350")
+		)
 		(fp_line
 			(start -1.33 -1.33)
 			(end 0 -1.33)
@@ -12570,14 +12590,14 @@
 			(uuid "0901ea12-7cbd-4f56-90ce-dc0ab6c2ebdb")
 		)
 		(fp_line
-			(start -1.33 1.27)
-			(end -1.33 3.87)
+			(start 1.27 1.27)
+			(end 1.27 -1.33)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "84209a23-db42-4670-90e9-3faa7fe07ea7")
+			(uuid "7ea84c91-7b39-42f5-9838-85ad45200b91")
 		)
 		(fp_line
 			(start -1.33 1.27)
@@ -12590,6 +12610,16 @@
 			(uuid "dc3a86d6-2580-4308-a99d-56da7cfb7abd")
 		)
 		(fp_line
+			(start -1.33 1.27)
+			(end -1.33 3.87)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "84209a23-db42-4670-90e9-3faa7fe07ea7")
+		)
+		(fp_line
 			(start -1.33 3.87)
 			(end 3.87 3.87)
 			(stroke
@@ -12598,56 +12628,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "377e827d-0ce4-4f5a-90c1-52fbe716f01f")
-		)
-		(fp_line
-			(start 1.27 -1.33)
-			(end 3.87 -1.33)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3f12ab72-75f2-4566-9457-f8a8622fc350")
-		)
-		(fp_line
-			(start 1.27 1.27)
-			(end 1.27 -1.33)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7ea84c91-7b39-42f5-9838-85ad45200b91")
-		)
-		(fp_line
-			(start 3.87 -1.33)
-			(end 3.87 3.87)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e6380e26-b6a1-4538-bbb3-a10af84ed38d")
-		)
-		(fp_line
-			(start -1.8 -1.8)
-			(end -1.8 4.35)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "5325d603-5052-451b-a5eb-f993517df51e")
-		)
-		(fp_line
-			(start -1.8 4.35)
-			(end 4.35 4.35)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "8defbac2-47dd-4c01-9843-704e7487ef8d")
 		)
 		(fp_line
 			(start 4.35 -1.8)
@@ -12660,6 +12640,16 @@
 			(uuid "cdccb354-caaf-47b3-8fdb-37fc33f08033")
 		)
 		(fp_line
+			(start -1.8 -1.8)
+			(end -1.8 4.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5325d603-5052-451b-a5eb-f993517df51e")
+		)
+		(fp_line
 			(start 4.35 4.35)
 			(end 4.35 -1.8)
 			(stroke
@@ -12670,34 +12660,14 @@
 			(uuid "c61b06eb-e48b-4d6d-ac35-989f18de3bcc")
 		)
 		(fp_line
-			(start -1.27 0)
-			(end 0 -1.27)
+			(start -1.8 4.35)
+			(end 4.35 4.35)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "3a944220-3cdb-40d9-9c04-63fd74edf61a")
-		)
-		(fp_line
-			(start -1.27 3.81)
-			(end -1.27 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "9dd52bcc-dca8-4747-9f5a-7d69020d73a7")
-		)
-		(fp_line
-			(start 0 -1.27)
-			(end 3.81 -1.27)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "5d72c770-fd0c-4853-ac45-c55849e81acf")
+			(layer "F.CrtYd")
+			(uuid "8defbac2-47dd-4c01-9843-704e7487ef8d")
 		)
 		(fp_line
 			(start 3.81 -1.27)
@@ -12710,6 +12680,26 @@
 			(uuid "270918b9-7cf4-4317-a325-eff79202073f")
 		)
 		(fp_line
+			(start 0 -1.27)
+			(end 3.81 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5d72c770-fd0c-4853-ac45-c55849e81acf")
+		)
+		(fp_line
+			(start -1.27 0)
+			(end 0 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3a944220-3cdb-40d9-9c04-63fd74edf61a")
+		)
+		(fp_line
 			(start 3.81 3.81)
 			(end -1.27 3.81)
 			(stroke
@@ -12719,8 +12709,18 @@
 			(layer "F.Fab")
 			(uuid "e5826aaa-1759-4c51-b159-257451553640")
 		)
+		(fp_line
+			(start -1.27 3.81)
+			(end -1.27 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9dd52bcc-dca8-4747-9f5a-7d69020d73a7")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 1.27 90)
+			(at 1.27 1.27 0)
 			(layer "F.Fab")
 			(uuid "8097f47d-6b26-405e-8916-8bc2b2e56b4c")
 			(effects
@@ -12731,7 +12731,7 @@
 			)
 		)
 		(pad "1" thru_hole rect
-			(at 0 0)
+			(at 0 0 90)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -12742,7 +12742,7 @@
 			(uuid "b4632141-a337-4555-bdda-7f5220dc0a09")
 		)
 		(pad "2" thru_hole oval
-			(at 2.54 0)
+			(at 2.54 0 90)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -12753,7 +12753,7 @@
 			(uuid "daa7bdab-268f-4176-8c64-91d61cf9e950")
 		)
 		(pad "3" thru_hole oval
-			(at 0 2.54)
+			(at 0 2.54 90)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -12764,7 +12764,7 @@
 			(uuid "dc23e7c0-fbc0-413a-9068-7da073a12116")
 		)
 		(pad "4" thru_hole oval
-			(at 2.54 2.54)
+			(at 2.54 2.54 90)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -13030,9 +13030,9 @@
 	(footprint "heepokranios-bo-library:Conn_3x03"
 		(layer "F.Cu")
 		(uuid "586f92ea-433c-4306-9d1f-9fae86d558cd")
-		(at 197.7326 -27.112)
+		(at 132.5626 93.218)
 		(property "Reference" "J7"
-			(at -0.1524 0.5588 0)
+			(at 4.5974 -9.398 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "c5165c34-689a-46db-9d50-713284aa4b84")
@@ -18112,7 +18112,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "73ff3f02-3bea-446d-979f-d3ac998596d7")
-		(at 186.4576 -43.67)
+		(at 50.8 137.16)
 		(descr "Through hole straight pin header, 2x03, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x03 2.54mm double row")
 		(property "Reference" "J4"
@@ -28631,7 +28631,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "bf041f41-1e4e-4616-adf0-d7fa07293c11")
-		(at 208.6076 -9.64)
+		(at 53.34 111.76)
 		(descr "Through hole straight pin header, 2x02, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x02 2.54mm double row")
 		(property "Reference" "J9"
@@ -29225,7 +29225,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "c3b1ed4d-56c7-4bfd-8ad0-fb5bf7064fc3")
-		(at 215.8076 -24.04)
+		(at 68.58 104.14)
 		(descr "Through hole straight pin header, 2x04, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x04 2.54mm double row")
 		(property "Reference" "J6"
@@ -31441,7 +31441,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "d5b45444-92bb-4597-92c6-5bdf0117a36b")
-		(at 208.6076 -24.04)
+		(at 53.34 121.92)
 		(descr "Through hole straight pin header, 2x02, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x02 2.54mm double row")
 		(property "Reference" "J1"
