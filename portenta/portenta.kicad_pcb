@@ -5483,7 +5483,7 @@
 	(footprint "Connector_Hirose_DF40:Hirose_DF40HC(4.0)-80DS-0.4V_2x40_P0.4mm"
 		(layer "F.Cu")
 		(uuid "279f2234-a18a-45fc-b1b3-df0a254cdbd8")
-		(at 163.135 103.98)
+		(at 163.068 106.172)
 		(descr "0.4mm Pitch, Stacking Height 4.000000mm, Receptacle, vertical (source: https://www.hirose.com/en/product/document?clcode=&productname=&series=DF40&documenttype=Catalog&lang=en&documentid=en_DF40_CAT)")
 		(tags "conn hirose board-to-board mezzanine stacking receptacle")
 		(property "Reference" "J2"
@@ -12600,7 +12600,7 @@
 	(footprint "Connector_Hirose_DF40:Hirose_DF40HC(4.0)-80DS-0.4V_2x40_P0.4mm"
 		(layer "F.Cu")
 		(uuid "85aedbe5-e3d9-4b42-99b2-ba18021224ed")
-		(at 119.955 103.98)
+		(at 119.888 106.172)
 		(descr "0.4mm Pitch, Stacking Height 4.000000mm, Receptacle, vertical (source: https://www.hirose.com/en/product/document?clcode=&productname=&series=DF40&documenttype=Catalog&lang=en&documentid=en_DF40_CAT)")
 		(tags "conn hirose board-to-board mezzanine stacking receptacle")
 		(property "Reference" "J1"
@@ -19271,8 +19271,8 @@
 		)
 	)
 	(gr_rect
-		(start 114.135 92.07)
-		(end 180.505 115.57)
+		(start 114.068 94.262)
+		(end 180.438 117.762)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -19281,8 +19281,21 @@
 		(layer "F.SilkS")
 		(uuid "0e856a0b-8bde-41ae-86d5-88c961bdf574")
 	)
+	(gr_poly
+		(pts
+			(xy 66.294 130.302) (xy 105.664 130.302) (xy 115.57 120.396) (xy 170.18 120.396) (xy 173.482 117.094)
+			(xy 173.482 95.25) (xy 168.656 90.424) (xy 113.538 90.424) (xy 99.568 76.454) (xy 66.294 76.454)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "26654454-0906-4b1d-89ab-6f2fdf8a8b23")
+	)
 	(gr_text "USB"
-		(at 179.743 106.802 90)
+		(at 179.676 108.994 90)
 		(layer "F.SilkS")
 		(uuid "8d8e14ce-cd36-42d9-ace0-7103431a4d48")
 		(effects
