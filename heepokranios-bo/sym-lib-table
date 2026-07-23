@@ -2,5 +2,5 @@
 	(version 7)
 	(lib (name "cheep_board_connector") (type "KiCad") (uri "${KIPRJMOD}/libs/ESL-EPFL/cheep_board_connector.kicad_sym") (options "") (descr ""))
 	(lib (name "heepokranios-bo-library") (type "KiCad") (uri "${KIPRJMOD}/libs/heepokranios-bo-library.kicad_sym") (options "") (descr ""))
-	(lib (name "PGA_socket") (type "KiCad") (uri "${KIPRJMOD}/libs/PGA_socket") (options "") (descr ""))
+	(lib (name "PGA_Socket") (type "KiCad") (uri "${KIPRJMOD}/libs/heepokranios-bo-library.pretty/PGA_13x13.kicad_sym") (options "") (descr ""))
 )
