@@ -1,8 +1,8 @@
 {
   "board": {
     "active_layer": 5,
-    "active_layer_preset": "Silkscreen",
-    "auto_track_width": false,
+    "active_layer_preset": "",
+    "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -47,8 +47,8 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00000000_02000022",
-    "zone_display_mode": 1
+    "visible_layers": "00000000_00000000_00000000_82002223",
+    "zone_display_mode": 0
   },
   "git": {
     "integration_disabled": false,
