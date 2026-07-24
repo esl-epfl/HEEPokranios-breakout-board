@@ -9388,6 +9388,10 @@
 		(uuid "30beb9e1-e07b-4c59-9ccc-b7f003fb6bdf")
 	)
 	(no_connect
+		(at 394.97 364.49)
+		(uuid "31aed632-e1dd-47cc-8237-e5581ab003e7")
+	)
+	(no_connect
 		(at 209.55 86.36)
 		(uuid "347b0c67-243d-408b-a52b-c675d2bb1795")
 	)
@@ -9408,6 +9412,10 @@
 		(uuid "3885db8d-e16c-4977-ab08-65addb7a839c")
 	)
 	(no_connect
+		(at 394.97 369.57)
+		(uuid "38a98ae2-7c92-4649-980a-e86fe3898828")
+	)
+	(no_connect
 		(at 306.07 86.36)
 		(uuid "44d921f9-2ead-4160-9b74-4257da7c88e4")
 	)
@@ -9418,6 +9426,10 @@
 	(no_connect
 		(at 229.87 86.36)
 		(uuid "4b3b8947-cb8b-41b8-82a8-bae332e0c988")
+	)
+	(no_connect
+		(at 394.97 367.03)
+		(uuid "4f46f710-044e-45df-a55f-9177a1600d21")
 	)
 	(no_connect
 		(at 224.79 86.36)
@@ -9448,6 +9460,10 @@
 		(uuid "65272a17-ddd1-48d1-9fc7-b9cd54f38fa3")
 	)
 	(no_connect
+		(at 394.97 359.41)
+		(uuid "6e58d324-6f4b-4f9e-b680-cb4c73d4f9f1")
+	)
+	(no_connect
 		(at 326.39 58.42)
 		(uuid "6e7da950-0544-45e4-a33f-8203ef49f5b9")
 	)
@@ -9462,6 +9478,10 @@
 	(no_connect
 		(at 313.69 31.75)
 		(uuid "71340a9f-a3af-493b-bf5d-43ecc372a5af")
+	)
+	(no_connect
+		(at 394.97 361.95)
+		(uuid "71f4113b-7dbc-44e3-9475-95a52f94d441")
 	)
 	(no_connect
 		(at 295.91 127)
@@ -9618,6 +9638,10 @@
 	(no_connect
 		(at 323.85 86.36)
 		(uuid "c4db877b-d8e5-4b1d-a8ae-2746ff061ed8")
+	)
+	(no_connect
+		(at 394.97 356.87)
+		(uuid "c53e04df-df90-4022-8596-5b82d701c81e")
 	)
 	(no_connect
 		(at 295.91 124.46)
@@ -28161,16 +28185,6 @@
 		)
 		(uuid "0a40058c-51a1-46ec-8b4f-7c60c579b7c1")
 	)
-	(label "DMUX_7"
-		(at 394.97 369.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0a7987aa-7da2-4936-bdf4-c22d80013bc3")
-	)
 	(label "E"
 		(at 393.7 260.35 0)
 		(effects
@@ -28200,6 +28214,16 @@
 			(justify left bottom)
 		)
 		(uuid "0d8941bb-4604-4c17-9f88-8f15d0666c19")
+	)
+	(label "DMUX_SEL_0"
+		(at 394.97 351.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0f448310-eac2-4689-bbf2-0a3c6d02e93c")
 	)
 	(label "VDD_IO"
 		(at 226.06 121.92 0)
@@ -28231,6 +28255,16 @@
 		)
 		(uuid "14417221-d671-4100-b3f7-ba7382ebb793")
 	)
+	(label "DMUX_SEL_1"
+		(at 394.97 354.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "14e66d92-d94b-4475-a3f1-62446dc2af40")
+	)
 	(label "VREF_VIN"
 		(at 433.07 189.23 180)
 		(effects
@@ -28250,16 +28284,6 @@
 			(justify left bottom)
 		)
 		(uuid "158bc69f-8aa3-482f-b198-aa3b69d7c97b")
-	)
-	(label "DMUX_1"
-		(at 394.97 354.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "172544fb-b085-4231-8e40-6657bd31d881")
 	)
 	(label "CH_0_DSM_VDD"
 		(at 308.61 184.15 0)
@@ -28451,15 +28475,15 @@
 		)
 		(uuid "2c5d4516-097e-475c-a4c0-8daba0d77544")
 	)
-	(label "DMUX_2"
-		(at 394.97 356.87 0)
+	(label "DMUX_SEL_1"
+		(at 287.02 132.08 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "2f3fb70a-1586-42ea-aecf-bdead284f438")
+		(uuid "2e1e78d8-603c-4877-957c-968cfbd6d3ea")
 	)
 	(label "VREF_HVDD"
 		(at 433.07 162.56 180)
@@ -28521,16 +28545,6 @@
 		)
 		(uuid "36c5bc07-f77e-429b-8fce-64cd73501240")
 	)
-	(label "DMUX_6"
-		(at 394.97 367.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "36e6b943-bd8d-420b-ab78-8e74a75117d8")
-	)
 	(label "nRST"
 		(at 186.69 114.3 180)
 		(effects
@@ -28560,6 +28574,16 @@
 			(justify right bottom)
 		)
 		(uuid "3b1546fa-9fe6-4912-9d15-d10281f5b3e6")
+	)
+	(label "DMUX_SEL_0"
+		(at 289.56 133.35 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b5f4fe8-40dc-40d9-935e-83560cf0242e")
 	)
 	(label "DMUX_7"
 		(at 306.07 173.99 0)
@@ -28640,16 +28664,6 @@
 			(justify right bottom)
 		)
 		(uuid "429014a9-3bea-4398-98ad-6443cd9829e7")
-	)
-	(label "DMUX_3"
-		(at 394.97 359.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "45021a49-303e-4b41-8df1-3e31ed3c416b")
 	)
 	(label "UART_CHEEP_RX"
 		(at 281.94 143.51 90)
@@ -29391,16 +29405,6 @@
 		)
 		(uuid "99ef7372-9396-4c78-b347-48a66885c149")
 	)
-	(label "DMUX_0"
-		(at 394.97 351.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9a069f4f-4259-4fb3-9c16-cc6231c509cc")
-	)
 	(label "buffers_VCM"
 		(at 133.35 363.22 0)
 		(effects
@@ -29500,16 +29504,6 @@
 			(justify left bottom)
 		)
 		(uuid "ac12ea06-2b2e-4aa0-8103-a963f43c4b22")
-	)
-	(label "DMUX_5"
-		(at 394.97 364.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "acfbd68e-93c5-4749-8d81-162984794b74")
 	)
 	(label "VREF_VIN"
 		(at 220.98 209.55 180)
@@ -29660,16 +29654,6 @@
 			(justify right bottom)
 		)
 		(uuid "c2a207f8-8efe-4e63-b23a-e7c7be9929c1")
-	)
-	(label "DMUX_4"
-		(at 394.97 361.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c2ec6e40-5560-492e-bee0-9d32cb99a47a")
 	)
 	(label "WPDT_SCKI"
 		(at 251.46 359.41 180)
