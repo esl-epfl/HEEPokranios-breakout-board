@@ -2535,6 +2535,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 120.65) (xy 139.7 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "025ca153-3853-45f3-a339-04d37718b778")
+	)
+	(wire
+		(pts
 			(xy 81.28 157.48) (xy 81.28 160.02)
 		)
 		(stroke
@@ -2605,7 +2615,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 120.65) (xy 248.92 120.65)
+			(xy 246.38 123.19) (xy 248.92 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2625,7 +2635,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 118.11) (xy 246.38 118.11)
+			(xy 248.92 125.73) (xy 246.38 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2645,7 +2655,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 125.73) (xy 246.38 125.73)
+			(xy 248.92 115.57) (xy 246.38 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2715,16 +2725,6 @@
 	)
 	(wire
 		(pts
-			(xy 131.445 125.73) (xy 139.7 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ee60e34-426d-4063-9819-4ae14aaa360c")
-	)
-	(wire
-		(pts
 			(xy 205.74 128.27) (xy 220.98 128.27)
 		)
 		(stroke
@@ -2742,16 +2742,6 @@
 			(type default)
 		)
 		(uuid "37a8290b-9057-40a3-a399-3f5c7d57a37f")
-	)
-	(wire
-		(pts
-			(xy 131.445 123.19) (xy 139.7 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38b0dd8b-855f-4f5d-b3be-8b271f2b65c4")
 	)
 	(wire
 		(pts
@@ -2775,7 +2765,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 113.03) (xy 248.92 113.03)
+			(xy 246.38 130.81) (xy 248.92 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2815,23 +2805,13 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 130.81) (xy 246.38 130.81)
+			(xy 248.92 120.65) (xy 246.38 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "48e61493-a2f5-46f7-be36-55270aa53f18")
-	)
-	(wire
-		(pts
-			(xy 131.445 128.27) (xy 139.7 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ced9bb8-212a-41dc-a253-c2831d4102ec")
 	)
 	(wire
 		(pts
@@ -2885,6 +2865,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 123.19) (xy 195.58 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "553bdc3b-3407-44b0-9e28-99c796798fb5")
+	)
+	(wire
+		(pts
 			(xy 257.81 93.98) (xy 261.62 93.98)
 		)
 		(stroke
@@ -2895,7 +2885,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 128.27) (xy 246.38 128.27)
+			(xy 248.92 118.11) (xy 246.38 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2915,7 +2905,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 115.57) (xy 256.54 115.57)
+			(xy 260.35 128.27) (xy 256.54 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2985,16 +2975,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.945 128.27) (xy 185.42 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67cb9fe2-5737-4832-9e12-0b004a4de364")
-	)
-	(wire
-		(pts
 			(xy 271.78 120.65) (xy 271.78 123.19)
 		)
 		(stroke
@@ -3002,6 +2982,16 @@
 			(type default)
 		)
 		(uuid "692c69f7-3fa5-46d0-8477-e1189af7b8c7")
+	)
+	(wire
+		(pts
+			(xy 132.08 125.73) (xy 139.7 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ed65a61-15e0-4ae9-9cb6-8363fe543414")
 	)
 	(wire
 		(pts
@@ -3095,16 +3085,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.945 123.19) (xy 185.42 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88b84e46-db5d-4265-8ed6-5c4c89b458f9")
-	)
-	(wire
-		(pts
 			(xy 81.28 149.86) (xy 83.82 149.86)
 		)
 		(stroke
@@ -3152,6 +3132,16 @@
 			(type default)
 		)
 		(uuid "9135c481-28cb-4fb2-a532-1588ad483695")
+	)
+	(wire
+		(pts
+			(xy 185.42 125.73) (xy 195.58 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92db766e-0cfc-4331-bb5d-b159e516267c")
 	)
 	(wire
 		(pts
@@ -3205,23 +3195,13 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 125.73) (xy 256.54 125.73)
+			(xy 260.35 115.57) (xy 256.54 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9b8f4172-ddbe-4bff-ac9d-6a8d0a8abb33")
-	)
-	(wire
-		(pts
-			(xy 194.945 125.73) (xy 185.42 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f5f9877-b955-4e4a-8639-cda645837dfe")
 	)
 	(wire
 		(pts
@@ -3235,7 +3215,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 120.65) (xy 256.54 120.65)
+			(xy 260.35 123.19) (xy 256.54 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3255,17 +3235,7 @@
 	)
 	(wire
 		(pts
-			(xy 131.445 120.65) (xy 139.7 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a35763fb-a124-47ad-9703-19aa4009c6e0")
-	)
-	(wire
-		(pts
-			(xy 260.35 118.11) (xy 256.54 118.11)
+			(xy 260.35 125.73) (xy 256.54 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3305,7 +3275,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 130.81) (xy 256.54 130.81)
+			(xy 260.35 120.65) (xy 256.54 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3315,7 +3285,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 123.19) (xy 256.54 123.19)
+			(xy 260.35 113.03) (xy 256.54 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3345,16 +3315,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.945 120.65) (xy 185.42 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b33483aa-73d0-480f-8f90-d71b67053596")
-	)
-	(wire
-		(pts
 			(xy 162.56 110.49) (xy 162.56 106.68)
 		)
 		(stroke
@@ -3372,6 +3332,16 @@
 			(type default)
 		)
 		(uuid "b3b70e0d-110d-41e1-8c63-04bde0618b88")
+	)
+	(wire
+		(pts
+			(xy 132.08 128.27) (xy 139.7 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b790903f-b908-44d5-9e2c-0e6ecfbe7a8c")
 	)
 	(wire
 		(pts
@@ -3395,7 +3365,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 128.27) (xy 256.54 128.27)
+			(xy 260.35 118.11) (xy 256.54 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3455,6 +3425,26 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 123.19) (xy 139.7 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c654d063-222b-4ae2-9eff-656c276aef08")
+	)
+	(wire
+		(pts
+			(xy 185.42 120.65) (xy 195.58 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c779fad4-d650-47d7-a9f6-0f2dab497a98")
+	)
+	(wire
+		(pts
 			(xy 220.98 135.89) (xy 220.98 138.43)
 		)
 		(stroke
@@ -3465,7 +3455,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 113.03) (xy 256.54 113.03)
+			(xy 260.35 130.81) (xy 256.54 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3505,7 +3495,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 123.19) (xy 246.38 123.19)
+			(xy 248.92 113.03) (xy 246.38 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3515,7 +3505,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 115.57) (xy 246.38 115.57)
+			(xy 248.92 128.27) (xy 246.38 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3542,6 +3532,16 @@
 			(type default)
 		)
 		(uuid "ea394869-eea7-41d3-9a78-9cc1c46fc77f")
+	)
+	(wire
+		(pts
+			(xy 185.42 128.27) (xy 195.58 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed1938b9-32e6-4020-a967-53f4eaba424e")
 	)
 	(wire
 		(pts
@@ -3653,26 +3653,6 @@
 		)
 		(uuid "ff105719-f9d6-4248-b597-06b01686f11a")
 	)
-	(label "DMUX_0"
-		(at 131.445 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "01a3d537-086d-4a41-9518-ffa85c536a11")
-	)
-	(label "DMUX_0"
-		(at 205.74 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "02ceaa00-67fa-4dcf-bcb0-b00d353dcf75")
-	)
 	(label "3V3"
 		(at 48.26 107.95 0)
 		(effects
@@ -3693,95 +3673,55 @@
 		)
 		(uuid "06ed1645-c12f-44af-b699-c3d591fa385c")
 	)
-	(label "DMUX_6"
-		(at 205.74 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "08e194fd-4033-4504-8bf3-d5f6980a67d4")
-	)
-	(label "DMUX_4"
-		(at 194.945 120.65 180)
+	(label "DMUX_0"
+		(at 195.58 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "117d0b9d-ac83-4b38-a3c2-dc6174653462")
+		(uuid "098ac557-19a4-4ff1-8d04-a047dfccbeca")
 	)
-	(label "DMUX_7"
-		(at 35.56 138.43 180)
+	(label "DMUX_2"
+		(at 195.58 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "1631e33e-2004-40ed-861d-8dc1d1f982a3")
+		(uuid "0c487139-132d-4392-81e3-a3918ed29332")
 	)
-	(label "DMUX_6"
-		(at 35.56 135.89 180)
+	(label "DMUX_2"
+		(at 78.74 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "1bca9ecc-aa8b-4ad3-954e-3dba899b9cf2")
+		(uuid "125f99b7-19a3-4e8a-8873-2bdeb03ee8fc")
 	)
 	(label "DMUX_3"
-		(at 35.56 128.27 180)
+		(at 195.58 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "1d3263d0-ceac-436c-a624-d9f10a02cdb6")
+		(uuid "288fca1e-9ed0-46aa-87f8-3c3df38c3520")
 	)
-	(label "DMUX_5"
-		(at 205.74 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2189b672-22b0-4a77-9729-349dd756005f")
-	)
-	(label "DMUX_1"
-		(at 205.74 128.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2236da36-3950-48e4-8f26-71b21f1797ba")
-	)
-	(label "DMUX_6"
-		(at 194.945 125.73 180)
+	(label "DMUX_3"
+		(at 35.56 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "2eba6a4e-e574-4eb0-ba5c-9dfb9084a468")
-	)
-	(label "DMUX_1"
-		(at 131.445 123.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3283664d-0565-4394-966d-2f6cb2c92426")
+		(uuid "35935ce6-5218-45ad-8634-17a16552fbd4")
 	)
 	(label "VDDIO"
 		(at 93.98 137.16 0)
@@ -3823,6 +3763,16 @@
 		)
 		(uuid "3c7a8c75-79fd-44be-a7af-008d6a23fd39")
 	)
+	(label "DMUX_4"
+		(at 78.74 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3fadd571-381d-400f-8f09-20e14ed4bf7c")
+	)
 	(label "VDDIO"
 		(at 93.98 127 0)
 		(effects
@@ -3833,25 +3783,25 @@
 		)
 		(uuid "46b0094c-e320-41ee-9089-68706b845a15")
 	)
-	(label "DMUX_3"
-		(at 205.74 123.19 0)
+	(label "DMUX_6"
+		(at 205.74 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "4f15a149-f380-4b2c-b6b7-e32fe06c55bd")
+		(uuid "49af339b-3264-407b-ad17-98fe4318f8b3")
 	)
-	(label "DMUX_4"
-		(at 78.74 127 180)
+	(label "DMUX_5"
+		(at 205.74 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "51ac075c-f35c-4d73-8975-87faed70d7b7")
+		(uuid "53ba8c40-41cb-47fe-b08a-0ec9e21f8c67")
 	)
 	(label "VDDIO"
 		(at 35.56 110.49 180)
@@ -3863,45 +3813,35 @@
 		)
 		(uuid "53c71c82-f205-480e-9a6f-444e0d96b2d1")
 	)
-	(label "DMUX_3"
-		(at 78.74 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "584bbbed-5d94-4b02-9e43-6889611aef87")
-	)
-	(label "DMUX_5"
-		(at 35.56 133.35 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5acdc38a-a731-40e2-839b-a4db4ef6c1eb")
-	)
-	(label "DMUX_2"
-		(at 131.445 125.73 0)
+	(label "DMUX_7"
+		(at 132.08 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "5b1b79df-5298-45a9-814c-ad1aaa2d26bb")
+		(uuid "5ac601db-009a-420c-9122-2602d23c2301")
 	)
 	(label "DMUX_1"
-		(at 35.56 123.19 180)
+		(at 205.74 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d8a18d0-92d2-47dd-bb78-084497c85f78")
+	)
+	(label "DMUX_0"
+		(at 35.56 138.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "65cc90fc-bf05-4fd2-86dc-a18546c4bd1d")
+		(uuid "62f639f1-1d85-4196-ac46-26e46debf75c")
 	)
 	(label "VDDIO"
 		(at 93.98 106.68 0)
@@ -3913,16 +3853,6 @@
 		)
 		(uuid "65cd806f-7a9d-4706-a454-61b37281d27a")
 	)
-	(label "DMUX_2"
-		(at 78.74 106.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6783bf4e-823a-4009-b5d4-676c0e6a141f")
-	)
 	(label "3V3"
 		(at 35.56 107.95 180)
 		(effects
@@ -3933,85 +3863,45 @@
 		)
 		(uuid "679879c4-5fc1-493d-b109-0ba117c248dc")
 	)
-	(label "DMUX_0"
-		(at 35.56 120.65 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "67cb452c-0b7b-4cc2-905a-71caf64e1473")
-	)
-	(label "DMUX_6"
-		(at 78.74 147.32 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "68a99514-5b7d-41ac-b480-8c049aea28aa")
-	)
-	(label "DMUX_7"
-		(at 205.74 120.65 0)
+	(label "DMUX_5"
+		(at 132.08 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "693ccff3-5811-4116-91b4-ec92c5fc0729")
-	)
-	(label "DMUX_7"
-		(at 194.945 128.27 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6d9feb83-9262-452b-b37a-800771715f07")
+		(uuid "7296e573-c89b-4e18-8823-adda11ec918f")
 	)
 	(label "DMUX_4"
-		(at 35.56 130.81 180)
+		(at 35.56 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "79ac608d-bca3-4cc8-951c-5887979afe62")
+		(uuid "75c9610e-34bb-4a20-b0cc-a61a836466de")
+	)
+	(label "DMUX_0"
+		(at 78.74 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "76fc4b08-99a6-45c4-9879-ad265eb8ae6b")
 	)
 	(label "DMUX_2"
-		(at 35.56 125.73 180)
+		(at 35.56 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "7d7a0ad2-2d16-408a-8ae9-3d03071d9441")
-	)
-	(label "DMUX_3"
-		(at 131.445 128.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "801bc871-019a-48db-8774-c781825ec074")
-	)
-	(label "DMUX_5"
-		(at 194.945 123.19 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "81370289-105c-46d4-85e1-b446792ebfe2")
+		(uuid "7755caa1-dc70-4a0f-9c7f-67e01455cdd3")
 	)
 	(label "3V3"
 		(at 233.68 101.6 180)
@@ -4023,6 +3913,66 @@
 		)
 		(uuid "87472c69-2638-4652-a087-f2cdc43bf952")
 	)
+	(label "DMUX_1"
+		(at 35.56 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "88f4f6ae-b0f3-4443-865d-4817d25590ac")
+	)
+	(label "DMUX_7"
+		(at 78.74 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8b6dc6c3-6400-4875-ae47-2b02781f1390")
+	)
+	(label "DMUX_5"
+		(at 35.56 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9247c673-c029-4eda-aa70-445683a5e0b6")
+	)
+	(label "DMUX_1"
+		(at 195.58 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "96b16456-a922-49aa-90a5-fa55dd6baebe")
+	)
+	(label "DMUX_7"
+		(at 35.56 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9f19477b-bb75-4016-a893-f929639c2e1c")
+	)
+	(label "DMUX_6"
+		(at 35.56 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9f882571-4753-4f56-8df7-7c4626f58e1f")
+	)
 	(label "3V3"
 		(at 245.11 93.98 180)
 		(effects
@@ -4033,25 +3983,15 @@
 		)
 		(uuid "a84de681-b230-4087-be47-9ff5a54e3b3c")
 	)
-	(label "DMUX_5"
-		(at 78.74 137.16 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "acbc6513-a314-4f96-8f54-c85d5d671e0a")
-	)
-	(label "DMUX_2"
-		(at 205.74 125.73 0)
+	(label "DMUX_6"
+		(at 132.08 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "b118e237-70af-4b19-bae5-ac69f3030c25")
+		(uuid "aed5f2c1-5af0-4dba-bb42-97b8bdc6ce00")
 	)
 	(label "VDDIO"
 		(at 93.98 96.52 0)
@@ -4063,17 +4003,27 @@
 		)
 		(uuid "b234c450-cae5-45f5-b171-674fc9b9f8f0")
 	)
-	(label "DMUX_0"
-		(at 78.74 85.09 180)
+	(label "DMUX_4"
+		(at 205.74 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3c4443c-6d89-41e5-9446-82aa58dfff0c")
+	)
+	(label "DMUX_1"
+		(at 78.74 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "b7f64492-8a02-4e9f-b1d9-02bcc4cb38c9")
+		(uuid "b8651c82-df0f-4ec7-9a73-3b146e77894b")
 	)
-	(label "DMUX_4"
+	(label "DMUX_3"
 		(at 205.74 113.03 0)
 		(effects
 			(font
@@ -4081,7 +4031,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "bd63f5f8-f728-4085-a4b7-5d4512e61d50")
+		(uuid "bda06846-c8ff-4f22-bd34-50cd344e534b")
 	)
 	(label "VDDIO"
 		(at 93.98 116.84 0)
@@ -4093,7 +4043,7 @@
 		)
 		(uuid "be8405a9-4088-4010-87d3-627e95c6b41c")
 	)
-	(label "DMUX_1"
+	(label "DMUX_6"
 		(at 78.74 96.52 180)
 		(effects
 			(font
@@ -4101,17 +4051,67 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "c4e35515-a682-43d0-b3c7-5393f20ce57a")
+		(uuid "c96f3fcd-5da3-4b3d-9cb5-f6bc58e96762")
 	)
-	(label "DMUX_7"
-		(at 78.74 157.48 180)
+	(label "DMUX_0"
+		(at 205.74 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d80925ba-9d7b-4e10-9a8e-f7e1c9c5e844")
+	)
+	(label "DMUX_4"
+		(at 132.08 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "def21097-29fa-4061-ae14-a403067802fc")
+	)
+	(label "DMUX_3"
+		(at 78.74 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "eb64b940-45fb-491a-a380-29943aca42e6")
+		(uuid "e6e7e85d-8c8d-4eeb-9d25-f004f3e8f42e")
+	)
+	(label "DMUX_7"
+		(at 205.74 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea67ef02-5d1e-43bc-b48f-f4cea5fe4ab9")
+	)
+	(label "DMUX_2"
+		(at 205.74 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ecc37023-d38b-4ab3-8208-b76bbbc7d015")
+	)
+	(label "DMUX_5"
+		(at 78.74 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f22137fe-3c76-41e9-ae03-9bb5a306b93b")
 	)
 	(label "VDDIO"
 		(at 154.94 106.68 0)
@@ -4134,7 +4134,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "02b645d4-33a9-46c2-839b-586c1fc8bf04")
-		(property "Reference" "SW4"
+		(property "Reference" "SW3"
 			(at 90.424 124.206 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4208,7 +4208,7 @@
 		(instances
 			(project "gpio-playground"
 				(path "/7474ab1d-c157-4c29-871d-3666e2c741e9"
-					(reference "SW4")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -4479,7 +4479,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 252.73 118.11 90)
+		(at 252.73 125.73 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4489,7 +4490,7 @@
 		(dnp no)
 		(uuid "0c6a51c0-756d-4562-bbaf-65eb53a57359")
 		(property "Reference" "R13"
-			(at 247.65 116.84 90)
+			(at 247.65 127 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4499,7 +4500,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 257.175 116.84 90)
+			(at 257.175 127 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4509,7 +4510,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 252.73 119.888 90)
+			(at 252.73 123.952 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4520,7 +4521,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 118.11 0)
+			(at 252.73 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4531,7 +4532,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 252.73 118.11 0)
+			(at 252.73 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4542,7 +4543,7 @@
 			)
 		)
 		(property "LCSC" "C21190"
-			(at 252.73 113.03 0)
+			(at 252.73 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4569,7 +4570,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 264.16 123.19 180)
+		(at 264.16 113.03 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4578,8 +4579,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "149930a3-4156-435b-a51d-0b78d97ea6e8")
-		(property "Reference" "D4"
-			(at 261.239 121.92 0)
+		(property "Reference" "D3"
+			(at 261.239 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4589,7 +4590,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 271.145 121.92 0)
+			(at 271.145 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4600,7 +4601,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 264.16 123.19 0)
+			(at 264.16 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4611,7 +4612,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 123.19 0)
+			(at 264.16 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4622,7 +4623,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 264.16 123.19 0)
+			(at 264.16 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4633,7 +4634,7 @@
 			)
 		)
 		(property "LCSC" "C965804"
-			(at 264.16 123.19 0)
+			(at 264.16 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4652,7 +4653,7 @@
 		(instances
 			(project "gpio-playground"
 				(path "/7474ab1d-c157-4c29-871d-3666e2c741e9"
-					(reference "D4")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -4919,7 +4920,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 252.73 120.65 90)
+		(at 252.73 123.19 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4929,7 +4931,7 @@
 		(dnp no)
 		(uuid "1d73d754-f8c7-4061-bd8c-c693f8f4bda9")
 		(property "Reference" "R14"
-			(at 247.65 119.38 90)
+			(at 247.65 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4939,7 +4941,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 257.175 119.38 90)
+			(at 257.175 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4949,7 +4951,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 252.73 122.428 90)
+			(at 252.73 121.412 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4960,7 +4962,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 120.65 0)
+			(at 252.73 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4971,7 +4973,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 252.73 120.65 0)
+			(at 252.73 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4982,7 +4984,7 @@
 			)
 		)
 		(property "LCSC" "C21190"
-			(at 252.73 115.57 0)
+			(at 252.73 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5009,7 +5011,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 252.73 123.19 90)
+		(at 252.73 113.03 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5019,7 +5021,7 @@
 		(dnp no)
 		(uuid "1f89a8b4-7b38-41ec-b9fb-7b967db42611")
 		(property "Reference" "R15"
-			(at 247.65 121.92 90)
+			(at 247.65 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5029,7 +5031,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 257.175 121.92 90)
+			(at 257.175 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5039,7 +5041,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 252.73 124.968 90)
+			(at 252.73 114.808 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5050,7 +5052,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 123.19 0)
+			(at 252.73 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5061,7 +5063,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 252.73 123.19 0)
+			(at 252.73 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5072,7 +5074,7 @@
 			)
 		)
 		(property "LCSC" "C21190"
-			(at 252.73 118.11 0)
+			(at 252.73 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5315,7 +5317,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 252.73 115.57 90)
+		(at 252.73 128.27 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5325,7 +5328,7 @@
 		(dnp no)
 		(uuid "2bc1f539-6fa9-40b9-8710-74f1e2c2c1e9")
 		(property "Reference" "R12"
-			(at 247.65 114.3 90)
+			(at 247.65 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5335,7 +5338,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 257.175 114.3 90)
+			(at 257.175 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5345,7 +5348,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 252.73 117.348 90)
+			(at 252.73 126.492 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5356,7 +5359,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 115.57 0)
+			(at 252.73 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5367,7 +5370,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 252.73 115.57 0)
+			(at 252.73 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5378,7 +5381,7 @@
 			)
 		)
 		(property "LCSC" "C21190"
-			(at 252.73 110.49 0)
+			(at 252.73 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5494,7 +5497,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "34c0b36d-8778-4178-acf7-8c49afd4ab12")
-		(property "Reference" "SW1"
+		(property "Reference" "SW6"
 			(at 90.424 93.726 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5568,7 +5571,7 @@
 		(instances
 			(project "gpio-playground"
 				(path "/7474ab1d-c157-4c29-871d-3666e2c741e9"
-					(reference "SW1")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -5576,7 +5579,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 252.73 125.73 90)
+		(at 252.73 115.57 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5586,7 +5589,7 @@
 		(dnp no)
 		(uuid "34f96498-334b-49a1-a6d5-da2fbc9ac43e")
 		(property "Reference" "R16"
-			(at 247.65 124.46 90)
+			(at 247.65 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5596,7 +5599,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 257.175 124.46 90)
+			(at 257.175 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5606,7 +5609,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 252.73 127.508 90)
+			(at 252.73 117.348 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5617,7 +5620,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 125.73 0)
+			(at 252.73 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5628,7 +5631,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 252.73 125.73 0)
+			(at 252.73 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5639,7 +5642,7 @@
 			)
 		)
 		(property "LCSC" "C21190"
-			(at 252.73 120.65 0)
+			(at 252.73 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5675,7 +5678,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a22bede-f7bf-4b47-9bba-aca3013de56f")
-		(property "Reference" "SW2"
+		(property "Reference" "SW5"
 			(at 90.424 103.886 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5749,7 +5752,7 @@
 		(instances
 			(project "gpio-playground"
 				(path "/7474ab1d-c157-4c29-871d-3666e2c741e9"
-					(reference "SW2")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -5766,7 +5769,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "542c3571-39c4-44e2-92d4-8c98220b20d2")
-		(property "Reference" "SW0"
+		(property "Reference" "SW7"
 			(at 90.424 82.296 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5840,7 +5843,7 @@
 		(instances
 			(project "gpio-playground"
 				(path "/7474ab1d-c157-4c29-871d-3666e2c741e9"
-					(reference "SW0")
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -5941,7 +5944,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 252.73 128.27 90)
+		(at 252.73 118.11 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5951,7 +5954,7 @@
 		(dnp no)
 		(uuid "5a2dab82-066c-449b-9450-bc5ad4256269")
 		(property "Reference" "R17"
-			(at 247.65 127 90)
+			(at 247.65 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5961,7 +5964,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 257.175 127 90)
+			(at 257.175 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5971,7 +5974,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 252.73 130.048 90)
+			(at 252.73 119.888 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5982,7 +5985,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 128.27 0)
+			(at 252.73 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5993,7 +5996,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 252.73 128.27 0)
+			(at 252.73 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6004,7 +6007,7 @@
 			)
 		)
 		(property "LCSC" "C21190"
-			(at 252.73 123.19 0)
+			(at 252.73 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6758,7 +6761,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "81a99462-c914-4668-a679-dfa0535298e2")
-		(property "Reference" "SW3"
+		(property "Reference" "SW4"
 			(at 90.424 114.046 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6832,7 +6835,7 @@
 		(instances
 			(project "gpio-playground"
 				(path "/7474ab1d-c157-4c29-871d-3666e2c741e9"
-					(reference "SW3")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -7038,7 +7041,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9c2b3503-99e9-4b28-82f6-4369e8907fcc")
-		(property "Reference" "SW6"
+		(property "Reference" "SW1"
 			(at 90.424 144.526 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7112,7 +7115,7 @@
 		(instances
 			(project "gpio-playground"
 				(path "/7474ab1d-c157-4c29-871d-3666e2c741e9"
-					(reference "SW6")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -7120,7 +7123,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 264.16 128.27 180)
+		(at 264.16 118.11 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7129,8 +7132,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9f7c3ac1-54e1-4abf-b069-fa10b051a28d")
-		(property "Reference" "D6"
-			(at 261.239 127 0)
+		(property "Reference" "D1"
+			(at 261.239 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7140,7 +7143,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 271.145 127 0)
+			(at 271.145 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7151,7 +7154,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 264.16 128.27 0)
+			(at 264.16 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7162,7 +7165,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 128.27 0)
+			(at 264.16 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7173,7 +7176,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 264.16 128.27 0)
+			(at 264.16 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7184,7 +7187,7 @@
 			)
 		)
 		(property "LCSC" "C965804"
-			(at 264.16 128.27 0)
+			(at 264.16 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7203,7 +7206,7 @@
 		(instances
 			(project "gpio-playground"
 				(path "/7474ab1d-c157-4c29-871d-3666e2c741e9"
-					(reference "D6")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -7376,7 +7379,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa98ad3c-ec28-42b1-8111-e6b7f17d30cf")
-		(property "Reference" "SW5"
+		(property "Reference" "SW2"
 			(at 90.424 134.366 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7450,7 +7453,7 @@
 		(instances
 			(project "gpio-playground"
 				(path "/7474ab1d-c157-4c29-871d-3666e2c741e9"
-					(reference "SW5")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -7548,7 +7551,8 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 264.16 115.57 180)
+		(at 264.16 128.27 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7557,8 +7561,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0ef82d1-c5ed-4904-9268-821fe1aff47e")
-		(property "Reference" "D1"
-			(at 261.62 114.3 0)
+		(property "Reference" "D6"
+			(at 261.62 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7568,7 +7572,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 271.145 114.3 0)
+			(at 271.145 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7579,7 +7583,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 264.16 115.57 0)
+			(at 264.16 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7590,7 +7594,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 115.57 0)
+			(at 264.16 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7601,7 +7605,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 264.16 115.57 0)
+			(at 264.16 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7612,7 +7616,7 @@
 			)
 		)
 		(property "LCSC" "C965804"
-			(at 264.16 115.57 0)
+			(at 264.16 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7631,7 +7635,7 @@
 		(instances
 			(project "gpio-playground"
 				(path "/7474ab1d-c157-4c29-871d-3666e2c741e9"
-					(reference "D1")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -7825,7 +7829,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 252.73 130.81 90)
+		(at 252.73 120.65 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7835,7 +7839,7 @@
 		(dnp no)
 		(uuid "c6d0df4f-da0b-4fb4-9cd7-7379a4229afb")
 		(property "Reference" "R18"
-			(at 247.65 129.54 90)
+			(at 247.65 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7845,7 +7849,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 257.175 129.54 90)
+			(at 257.175 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7855,7 +7859,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 252.73 132.588 90)
+			(at 252.73 122.428 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7866,7 +7870,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 130.81 0)
+			(at 252.73 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7877,7 +7881,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 252.73 130.81 0)
+			(at 252.73 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7888,7 +7892,7 @@
 			)
 		)
 		(property "LCSC" "C21190"
-			(at 252.73 125.73 0)
+			(at 252.73 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7915,7 +7919,8 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 264.16 120.65 180)
+		(at 264.16 123.19 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7924,8 +7929,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c8231ed5-56a1-4ba5-8669-c04a963c940d")
-		(property "Reference" "D3"
-			(at 261.239 119.38 0)
+		(property "Reference" "D4"
+			(at 261.239 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7935,7 +7940,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 271.145 119.38 0)
+			(at 271.145 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7946,7 +7951,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 264.16 120.65 0)
+			(at 264.16 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7957,7 +7962,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 120.65 0)
+			(at 264.16 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7968,7 +7973,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 264.16 120.65 0)
+			(at 264.16 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7979,7 +7984,7 @@
 			)
 		)
 		(property "LCSC" "C965804"
-			(at 264.16 120.65 0)
+			(at 264.16 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7998,7 +8003,7 @@
 		(instances
 			(project "gpio-playground"
 				(path "/7474ab1d-c157-4c29-871d-3666e2c741e9"
-					(reference "D3")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -8175,7 +8180,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 252.73 113.03 90)
+		(at 252.73 130.81 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8185,7 +8191,7 @@
 		(dnp no)
 		(uuid "d176f6cd-86aa-447c-b4d1-ac00b3701726")
 		(property "Reference" "R11"
-			(at 247.65 111.76 90)
+			(at 247.65 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8195,7 +8201,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 257.175 111.76 90)
+			(at 257.175 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8205,7 +8211,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 252.73 114.808 90)
+			(at 252.73 129.032 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8216,7 +8222,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 113.03 0)
+			(at 252.73 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8227,7 +8233,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 252.73 113.03 0)
+			(at 252.73 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8238,7 +8244,7 @@
 			)
 		)
 		(property "LCSC" "C21190"
-			(at 252.73 107.95 0)
+			(at 252.73 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8343,7 +8349,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 264.16 130.81 180)
+		(at 264.16 120.65 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8352,8 +8358,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d9a886ff-a42a-4439-8b3f-0ab1c4c8f8b7")
-		(property "Reference" "D7"
-			(at 261.239 129.54 0)
+		(property "Reference" "D0"
+			(at 261.239 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8363,7 +8369,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 271.145 129.54 0)
+			(at 271.145 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8374,7 +8380,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 264.16 130.81 0)
+			(at 264.16 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8385,7 +8391,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 130.81 0)
+			(at 264.16 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8396,7 +8402,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 264.16 130.81 0)
+			(at 264.16 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8407,7 +8413,7 @@
 			)
 		)
 		(property "LCSC" "C965804"
-			(at 264.16 130.81 0)
+			(at 264.16 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8426,7 +8432,7 @@
 		(instances
 			(project "gpio-playground"
 				(path "/7474ab1d-c157-4c29-871d-3666e2c741e9"
-					(reference "D7")
+					(reference "D0")
 					(unit 1)
 				)
 			)
@@ -8678,7 +8684,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0dfd816-8067-4baf-8d2a-44a61a3f7cd6")
-		(property "Reference" "SW7"
+		(property "Reference" "SW0"
 			(at 90.424 154.686 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8752,7 +8758,7 @@
 		(instances
 			(project "gpio-playground"
 				(path "/7474ab1d-c157-4c29-871d-3666e2c741e9"
-					(reference "SW7")
+					(reference "SW0")
 					(unit 1)
 				)
 			)
@@ -8760,7 +8766,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 264.16 113.03 0)
+		(at 264.16 130.81 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -8770,8 +8776,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f1125d5a-75d2-49f7-82a0-f4b16a7ef98e")
-		(property "Reference" "D0"
-			(at 261.62 111.76 0)
+		(property "Reference" "D7"
+			(at 261.62 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8781,7 +8787,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 271.145 114.3 0)
+			(at 271.145 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8792,7 +8798,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 264.16 113.03 0)
+			(at 264.16 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8803,7 +8809,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 113.03 0)
+			(at 264.16 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8814,7 +8820,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 264.16 113.03 0)
+			(at 264.16 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8825,7 +8831,7 @@
 			)
 		)
 		(property "LCSC" "C84266"
-			(at 264.16 113.03 0)
+			(at 264.16 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8844,7 +8850,7 @@
 		(instances
 			(project "gpio-playground"
 				(path "/7474ab1d-c157-4c29-871d-3666e2c741e9"
-					(reference "D0")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -8852,7 +8858,8 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 264.16 118.11 180)
+		(at 264.16 125.73 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8861,8 +8868,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f138c1b5-e3d5-4ea1-bee3-bd21023705da")
-		(property "Reference" "D2"
-			(at 261.239 116.84 0)
+		(property "Reference" "D5"
+			(at 261.239 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8872,7 +8879,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 271.145 116.84 0)
+			(at 271.145 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8883,7 +8890,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 264.16 118.11 0)
+			(at 264.16 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8894,7 +8901,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 118.11 0)
+			(at 264.16 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8905,7 +8912,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 264.16 118.11 0)
+			(at 264.16 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8916,7 +8923,7 @@
 			)
 		)
 		(property "LCSC" "C965804"
-			(at 264.16 118.11 0)
+			(at 264.16 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8935,7 +8942,7 @@
 		(instances
 			(project "gpio-playground"
 				(path "/7474ab1d-c157-4c29-871d-3666e2c741e9"
-					(reference "D2")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -9036,7 +9043,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 264.16 125.73 180)
+		(at 264.16 115.57 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9045,8 +9052,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f288a3f6-c850-40d5-92aa-868e55a74c9c")
-		(property "Reference" "D5"
-			(at 261.239 124.46 0)
+		(property "Reference" "D2"
+			(at 261.239 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9056,7 +9063,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 271.145 124.46 0)
+			(at 271.145 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9067,7 +9074,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 264.16 125.73 0)
+			(at 264.16 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9078,7 +9085,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 125.73 0)
+			(at 264.16 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9089,7 +9096,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 264.16 125.73 0)
+			(at 264.16 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9100,7 +9107,7 @@
 			)
 		)
 		(property "LCSC" "C965804"
-			(at 264.16 125.73 0)
+			(at 264.16 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9119,7 +9126,7 @@
 		(instances
 			(project "gpio-playground"
 				(path "/7474ab1d-c157-4c29-871d-3666e2c741e9"
-					(reference "D5")
+					(reference "D2")
 					(unit 1)
 				)
 			)
