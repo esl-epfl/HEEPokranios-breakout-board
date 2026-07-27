@@ -8162,6 +8162,18 @@
 		(uuid "71f62bae-e6f6-4bb8-a562-47aeeab09f0f")
 	)
 	(rectangle
+		(start 311.15 281.94)
+		(end 364.49 321.31)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "745f6ed3-a27c-475b-82cf-608df5eb8b5b")
+	)
+	(rectangle
 		(start 365.76 331.47)
 		(end 411.48 401.32)
 		(stroke
@@ -8496,7 +8508,7 @@
 	)
 	(text "< reg2ser_scki (dmux 5)"
 		(exclude_from_sim no)
-		(at 284.988 338.328 0)
+		(at 274.32 339.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8738,6 +8750,16 @@
 		)
 		(uuid "cf0a4b61-3d36-4042-b012-b71872959f60")
 	)
+	(text "General purpose buffer"
+		(exclude_from_sim no)
+		(at 336.55 284.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d0fee77a-effd-4bce-ad82-5b0763991e23")
+	)
 	(text "Resistors are there\njust to limit current\nin case of short\n(these pins are i/o)"
 		(exclude_from_sim no)
 		(at 322.58 113.03 0)
@@ -8918,6 +8940,12 @@
 		(uuid "3cedbd82-e767-41ca-90c8-a067e575119b")
 	)
 	(junction
+		(at 189.23 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3fa74bf6-2ed9-42e8-a8a1-838257c09db2")
+	)
+	(junction
 		(at 351.79 383.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8952,6 +8980,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b6811f3-2f5a-4d97-b57e-b478fe51327d")
+	)
+	(junction
+		(at 203.2 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c2760a1-f6b3-4aca-8c85-1413a7fc9933")
 	)
 	(junction
 		(at 351.79 388.62)
@@ -9170,6 +9204,12 @@
 		(uuid "a829ee5b-19c1-4c9b-b19d-56d02cca9ff0")
 	)
 	(junction
+		(at 189.23 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad11564d-0d04-480b-b4f4-23ebd7e7c4a4")
+	)
+	(junction
 		(at 124.46 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9216,6 +9256,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d48108a8-1965-46e8-8abe-e452f9a02808")
+	)
+	(junction
+		(at 203.2 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d67a2e06-dacf-4e9a-859a-b9e44f71eb70")
 	)
 	(junction
 		(at 444.5 189.23)
@@ -9779,6 +9825,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 173.99) (xy 203.2 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0127e2d7-a873-42ea-a5d3-f95cf8c8d721")
+	)
+	(wire
+		(pts
 			(xy 129.54 227.33) (xy 132.08 227.33)
 		)
 		(stroke
@@ -10006,6 +10062,16 @@
 			(type default)
 		)
 		(uuid "0948a176-6b86-41cb-88ef-19a9af8a8e91")
+	)
+	(wire
+		(pts
+			(xy 342.9 290.83) (xy 345.44 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09fbdb43-1d5c-4d55-ab1f-1ca916be19c3")
 	)
 	(wire
 		(pts
@@ -10249,6 +10315,16 @@
 	)
 	(wire
 		(pts
+			(xy 334.01 290.83) (xy 336.55 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "140ce758-1353-4e87-bfad-aee9ca6eb9a8")
+	)
+	(wire
+		(pts
 			(xy 351.79 388.62) (xy 351.79 393.7)
 		)
 		(stroke
@@ -10316,6 +10392,16 @@
 			(type default)
 		)
 		(uuid "16f039ff-6b99-44f4-82f4-00e356a4d211")
+	)
+	(wire
+		(pts
+			(xy 189.23 180.34) (xy 189.23 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17bc732a-b0e2-45ab-8df3-7ec83d6d7dec")
 	)
 	(wire
 		(pts
@@ -10549,6 +10635,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 181.61) (xy 203.2 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2102536d-db87-4378-84c8-2389f6e0da6b")
+	)
+	(wire
+		(pts
 			(xy 323.85 375.92) (xy 346.71 375.92)
 		)
 		(stroke
@@ -10659,6 +10755,16 @@
 	)
 	(wire
 		(pts
+			(xy 346.71 299.72) (xy 353.06 299.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28fc46f8-9eb7-469d-a703-faebb5c8c7cd")
+	)
+	(wire
+		(pts
 			(xy 439.42 214.63) (xy 436.88 217.17)
 		)
 		(stroke
@@ -10726,6 +10832,16 @@
 			(type default)
 		)
 		(uuid "2ee6888a-5cef-4d9d-b021-8961949cf6a3")
+	)
+	(wire
+		(pts
+			(xy 189.23 173.99) (xy 189.23 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ef4d4b0-9e9f-4052-bd31-2974bcd7f882")
 	)
 	(wire
 		(pts
@@ -11056,6 +11172,16 @@
 			(type default)
 		)
 		(uuid "40407d15-7d36-4bba-8d60-66466bdf60ca")
+	)
+	(wire
+		(pts
+			(xy 320.04 299.72) (xy 327.66 299.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "409fe62b-f27d-40e1-baef-70fb637266c7")
 	)
 	(wire
 		(pts
@@ -11699,6 +11825,16 @@
 	)
 	(wire
 		(pts
+			(xy 325.12 303.53) (xy 327.66 303.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62024154-4a64-4ae0-b20e-d5ec881d370c")
+	)
+	(wire
+		(pts
 			(xy 236.22 143.51) (xy 236.22 146.05)
 		)
 		(stroke
@@ -11736,6 +11872,16 @@
 			(type default)
 		)
 		(uuid "645f5303-572d-4a0f-86ae-41c4e5f019f2")
+	)
+	(wire
+		(pts
+			(xy 342.9 293.37) (xy 342.9 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67535dd4-ab3b-4e6b-b228-020b73087dbc")
 	)
 	(wire
 		(pts
@@ -11906,6 +12052,26 @@
 			(type default)
 		)
 		(uuid "75141b4c-35a6-49b4-8a4d-80b52cdaec82")
+	)
+	(wire
+		(pts
+			(xy 189.23 181.61) (xy 193.04 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75eddf89-39cc-4977-9f7b-2b8b1691f547")
+	)
+	(wire
+		(pts
+			(xy 203.2 173.99) (xy 222.25 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75fe613c-c9d1-481f-aa28-6995e79d3075")
 	)
 	(wire
 		(pts
@@ -12169,7 +12335,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 173.99) (xy 222.25 173.99)
+			(xy 168.91 173.99) (xy 189.23 173.99)
 		)
 		(stroke
 			(width 0)
@@ -12669,6 +12835,26 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 173.99) (xy 203.2 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a51c42b5-529e-4420-99d2-665f160caaaa")
+	)
+	(wire
+		(pts
+			(xy 203.2 181.61) (xy 222.25 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5622624-9911-4745-854b-b7d6ac2c1fa1")
+	)
+	(wire
+		(pts
 			(xy 330.2 191.77) (xy 330.2 167.64)
 		)
 		(stroke
@@ -12939,7 +13125,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 181.61) (xy 222.25 181.61)
+			(xy 168.91 181.61) (xy 189.23 181.61)
 		)
 		(stroke
 			(width 0)
@@ -13266,6 +13452,16 @@
 			(type default)
 		)
 		(uuid "bcb02eb4-4ee5-4431-b52d-f3e9df570546")
+	)
+	(wire
+		(pts
+			(xy 189.23 173.99) (xy 193.04 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd5bd42f-a98a-4864-ab09-3433267d3882")
 	)
 	(wire
 		(pts
@@ -13689,6 +13885,16 @@
 	)
 	(wire
 		(pts
+			(xy 336.55 293.37) (xy 336.55 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9b2bdf6-2dd8-4bf4-9f79-06dd8bd5d6d0")
+	)
+	(wire
+		(pts
 			(xy 289.56 121.92) (xy 295.91 121.92)
 		)
 		(stroke
@@ -13929,6 +14135,16 @@
 	)
 	(wire
 		(pts
+			(xy 327.66 307.34) (xy 320.04 307.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6974763-5ce3-42c7-9194-5d435b782207")
+	)
+	(wire
+		(pts
 			(xy 123.19 179.07) (xy 123.19 180.34)
 		)
 		(stroke
@@ -13956,6 +14172,16 @@
 			(type default)
 		)
 		(uuid "e885f8b7-229b-414b-b854-917f5dd7f7b3")
+	)
+	(wire
+		(pts
+			(xy 203.2 180.34) (xy 203.2 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8da9f38-d94d-4430-a051-4082e38bf839")
 	)
 	(wire
 		(pts
@@ -14326,6 +14552,16 @@
 			(type default)
 		)
 		(uuid "fa99a9d1-6103-40fc-b7da-d171679f9d54")
+	)
+	(wire
+		(pts
+			(xy 346.71 307.34) (xy 353.06 307.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdc49707-1fca-42ff-a074-1603b43e8234")
 	)
 	(wire
 		(pts
@@ -29465,6 +29701,16 @@
 		)
 		(uuid "a6696aaf-921c-400c-8342-908f66f3c694")
 	)
+	(label "buffers_VCM"
+		(at 325.12 303.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a6971e00-b673-4e79-9d0a-626970a175ac")
+	)
 	(label "DMUX_5"
 		(at 382.27 364.49 180)
 		(effects
@@ -30125,6 +30371,16 @@
 		)
 		(uuid "f54a21c8-ea2a-4386-9ded-988d77254c93")
 	)
+	(label "buffers_3V3"
+		(at 345.44 290.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6267b2b-3259-4acb-82b2-83a23c20c987")
+	)
 	(label "JTAG_TMS"
 		(at 243.84 143.51 90)
 		(effects
@@ -30134,6 +30390,16 @@
 			(justify left bottom)
 		)
 		(uuid "f9880de8-ab5f-4343-b3ba-5eb7265a4a3e")
+	)
+	(label "buffers_1V0"
+		(at 334.01 290.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f9acea13-954a-4331-a369-2f2b81a5f3eb")
 	)
 	(label "buffers_1V0"
 		(at 339.09 243.84 180)
@@ -39034,6 +39300,89 @@
 	)
 	(symbol
 		(lib_id "heepokranios-bo-library:SMA_w_tp")
+		(at 317.5 307.34 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "68cbe179-745e-43d3-a3dc-273f19970131")
+		(property "Reference" "S51"
+			(at 312.42 308.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMA connector"
+			(at 303.022 305.308 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "heepokranios-bo-library:SMA_w_tp"
+			(at 317.5 307.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 317.5 307.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 317.5 307.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "78fec9da-1bd1-43a9-927f-fb15a3cca09c")
+		)
+		(pin "2"
+			(uuid "a358da8b-f835-4230-886c-d33a7de28f22")
+		)
+		(instances
+			(project "heepokranios-bo"
+				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
+					(reference "S51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "heepokranios-bo-library:SMA_w_tp")
 		(at 132.08 138.43 0)
 		(mirror x)
 		(unit 1)
@@ -39045,7 +39394,7 @@
 		(dnp no)
 		(uuid "694c3c1a-879e-45c4-9498-7c612268f42c")
 		(property "Reference" "S2"
-			(at 126.746 137.414 0)
+			(at 134.62 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39433,6 +39782,87 @@
 			(project "heepokranios-bo"
 				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
 					(reference "J39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 196.85 181.61 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6c17d6ef-522c-4070-a43f-99791acbc286")
+		(property "Reference" "R8"
+			(at 194.31 185.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R"
+			(at 199.39 185.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 197.104 180.594 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 196.85 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "be0b8f9f-a540-4af6-adfe-5f862944be87")
+		)
+		(pin "1"
+			(uuid "1ec2f91a-7393-4b71-9337-a2d32b9126d2")
+		)
+		(instances
+			(project "heepokranios-bo"
+				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -40697,6 +41127,85 @@
 			(project "heepokranios-bo"
 				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 358.14 299.72 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7709ae29-2581-4be8-8829-54f4f470aae5")
+		(property "Reference" "#PWR0113"
+			(at 364.49 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 363.22 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 358.14 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 358.14 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 358.14 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8c8c90ab-c828-4cfa-83a0-6fde3f540642")
+		)
+		(instances
+			(project "heepokranios-bo"
+				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -42701,6 +43210,168 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 358.14 307.34 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "888c4476-2514-449c-bba1-0ce8ae0d524d")
+		(property "Reference" "#PWR0112"
+			(at 364.49 307.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 363.22 307.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 358.14 307.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 358.14 307.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 358.14 307.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eb7e9620-30b1-4550-ab47-6613839cc576")
+		)
+		(instances
+			(project "heepokranios-bo"
+				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "heepokranios-bo-library:SMA_w_tp")
+		(at 355.6 307.34 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8cd454c7-35bf-42f6-a0f2-42870dd50676")
+		(property "Reference" "S53"
+			(at 361.95 306.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMA connector"
+			(at 370.078 309.372 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "heepokranios-bo-library:SMA_w_tp"
+			(at 355.6 307.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 355.6 307.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 355.6 307.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fcaf154b-e2ad-42ff-ad82-461b602f9bd7")
+		)
+		(pin "2"
+			(uuid "45f0019d-4f3f-4054-8993-940d05f94f49")
+		)
+		(instances
+			(project "heepokranios-bo"
+				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
+					(reference "S53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "heepokranios-bo-library:SMA_w_tp")
 		(at 198.12 311.15 270)
 		(mirror x)
@@ -43843,6 +44514,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 196.85 173.99 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9a06fbcd-62fb-492c-bd46-de531161a2c1")
+		(property "Reference" "R7"
+			(at 194.564 172.212 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R"
+			(at 199.644 172.974 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 197.104 172.974 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 196.85 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9db1168e-653d-428b-a2b1-21e72eb694db")
+		)
+		(pin "1"
+			(uuid "e0371cfe-9972-4ae2-aefe-389f17e4a7ba")
+		)
+		(instances
+			(project "heepokranios-bo"
+				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 228.6 313.69 0)
 		(unit 1)
@@ -44324,6 +45076,120 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 203.2 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "a0a87833-1e3c-48dc-a9fb-4df351a76a4e")
+		(property "Reference" "C87"
+			(at 200.66 179.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 201.93 176.784 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 203.2 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 203.2 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "399-9158-1-ND"
+			(at 203.2 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "80-C0805C104Z3V"
+			(at 203.2 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C30926"
+			(at 204.47 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ca0fbf3f-2e91-40e4-a2a6-42c4b83251c7")
+		)
+		(pin "2"
+			(uuid "aa759381-cfc5-4fc5-87d1-19cfdf5e43a3")
+		)
+		(instances
+			(project "heepokranios-bo"
+				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
+					(reference "C87")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 454.66 234.95 270)
 		(mirror x)
@@ -44399,6 +45265,85 @@
 			(project "heepokranios-bo"
 				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
 					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 314.96 299.72 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2b48aa6-c3c6-4b6e-9ca3-46d260412f9d")
+		(property "Reference" "#PWR0110"
+			(at 308.61 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 309.88 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 314.96 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 314.96 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 314.96 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9b11d832-875a-41ba-a963-5298b2181dca")
+		)
+		(instances
+			(project "heepokranios-bo"
+				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -48560,6 +49505,120 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 189.23 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "d14d6812-1d35-4da0-a551-2158251c7c53")
+		(property "Reference" "C88"
+			(at 186.69 179.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 187.96 176.784 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 189.23 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 189.23 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "399-9158-1-ND"
+			(at 189.23 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "80-C0805C104Z3V"
+			(at 189.23 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C30926"
+			(at 190.5 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d4807b34-ff68-47b4-bb84-34385aa5f1ee")
+		)
+		(pin "2"
+			(uuid "4c1beb00-473f-457b-8399-8094baf4022b")
+		)
+		(instances
+			(project "heepokranios-bo"
+				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
+					(reference "C88")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 256.54 374.65 0)
 		(unit 1)
@@ -49136,6 +50195,89 @@
 			(project "heepokranios-bo"
 				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
 					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "heepokranios-bo-library:SMA_w_tp")
+		(at 317.5 299.72 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d9ec5589-f2ca-4c5c-942f-a4e92de1b9da")
+		(property "Reference" "S22"
+			(at 312.42 300.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMA connector"
+			(at 303.022 297.688 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "heepokranios-bo-library:SMA_w_tp"
+			(at 317.5 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 317.5 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 317.5 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a995f5f7-395a-43a6-ae79-71a4452347a1")
+		)
+		(pin "2"
+			(uuid "51d97422-45c4-49df-96f9-99e4fcc6212c")
+		)
+		(instances
+			(project "heepokranios-bo"
+				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
+					(reference "S22")
 					(unit 1)
 				)
 			)
@@ -52321,6 +53463,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 314.96 307.34 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f328eaa4-2351-4f96-945d-858f05117ef7")
+		(property "Reference" "#PWR0111"
+			(at 308.61 307.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 309.88 307.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 314.96 307.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 314.96 307.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 314.96 307.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f002d5f3-2578-4498-a041-b2373fe78557")
+		)
+		(instances
+			(project "heepokranios-bo"
+				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "heepokranios-bo-library:SMA_w_tp")
 		(at 396.24 270.51 0)
 		(mirror y)
@@ -52638,6 +53859,89 @@
 			(project "heepokranios-bo"
 				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
 					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "heepokranios-bo-library:SMA_w_tp")
+		(at 355.6 299.72 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f76fa55c-6379-46c2-a7e0-92c37ca2eee6")
+		(property "Reference" "S52"
+			(at 360.68 298.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMA connector"
+			(at 370.078 301.752 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "heepokranios-bo-library:SMA_w_tp"
+			(at 355.6 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 355.6 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 355.6 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "28f141a0-f340-4c8d-8167-4a009d70e20c")
+		)
+		(pin "2"
+			(uuid "4fc49c36-7dad-4045-804c-a8ca181d41e7")
+		)
+		(instances
+			(project "heepokranios-bo"
+				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
+					(reference "S52")
 					(unit 1)
 				)
 			)
@@ -53778,6 +55082,122 @@
 			(project "heepokranios-bo"
 				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 327.66 293.37)
+		(size 19.05 15.875)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3ac8106f-b217-4eb1-b230-c66ad0bc4f7b")
+		(property "Sheetname" "Buffer_3"
+			(at 346.964 295.148 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "subsheets/fd_buffer.kicad_sch"
+			(at 327.66 313.0046 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1V0" input
+			(at 336.55 293.37 90)
+			(uuid "5a9d0cdd-b118-4fc8-af9c-b337f515bec8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3V3" input
+			(at 342.9 293.37 90)
+			(uuid "28441a12-99e0-4a9b-9864-ced21684c029")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VIN_P" input
+			(at 327.66 299.72 180)
+			(uuid "0428ceb7-dd31-4d43-8b99-174282e794b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN_N" input
+			(at 327.66 307.34 180)
+			(uuid "a63c31a4-1e95-4353-98d4-fdadf94a4f87")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT_P" output
+			(at 346.71 299.72 0)
+			(uuid "6562fbb9-94d4-48b0-ad02-7ac7a572aec2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT_N" output
+			(at 346.71 307.34 0)
+			(uuid "d79664ca-b275-496a-99c5-10f86be9f80f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCM" output
+			(at 327.66 303.53 180)
+			(uuid "996f0ef1-d989-4956-b120-26e8d529896c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "heepokranios-bo"
+				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
+					(page "5")
 				)
 			)
 		)

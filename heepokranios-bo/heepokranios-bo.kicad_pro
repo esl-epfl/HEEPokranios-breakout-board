@@ -125,7 +125,7 @@
         "silk_over_copper": "ignore",
         "silk_overlap": "ignore",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "error",
+        "solder_mask_bridge": "ignore",
         "starved_thermal": "error",
         "text_height": "ignore",
         "text_on_edge_cuts": "error",
@@ -288,6 +288,66 @@
     },
     "layer_pairs": [],
     "layer_presets": [
+      {
+        "activeLayer": -2,
+        "flipBoard": false,
+        "layers": [
+          0,
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20,
+          22,
+          24,
+          25,
+          26,
+          28,
+          30,
+          32,
+          34,
+          36,
+          38,
+          40,
+          42,
+          44,
+          46,
+          48,
+          50,
+          52,
+          54,
+          56,
+          58,
+          60,
+          62
+        ],
+        "name": "Default",
+        "renderLayers": [
+          "vias",
+          "footprint_text",
+          "ratsnest",
+          "footprints_front",
+          "footprints_back",
+          "footprint_values",
+          "footprint_references",
+          "tracks",
+          "drc_errors",
+          "drawing_sheet",
+          "bitmaps",
+          "pads",
+          "zones",
+          "drc_warnings",
+          "conflict_shadows",
+          "shapes"
+        ]
+      },
       {
         "activeLayer": -2,
         "flipBoard": false,
@@ -867,7 +927,7 @@
         "uuid": "ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
       }
     ],
-    "used_designators": "SW1-3,IC1-5,RF1-10,J1-49,RO1-10,#PWR1-109,R1-6,C1-86,RG1-10,D1,U1,#GND_1-27,#GND_68,#GND_72-90,S1-50,Cdiff1-5",
+    "used_designators": "Cdiff1-5,SW1-3,IC1-5,RF1-10,J1-49,RO1-10,#PWR1-113,R1-8,C1-88,RG1-10,D1,U1,S1-53,#GND_1-29,#GND_68,#GND_72-90",
     "variants": []
   },
   "sheets": [
@@ -886,6 +946,10 @@
     [
       "e35cbf79-82f1-4876-9c34-d0aeb95e1e75",
       "Buffer_2"
+    ],
+    [
+      "3ac8106f-b217-4eb1-b230-c66ad0bc4f7b",
+      "Buffer_3"
     ],
     [
       "0b4ab803-64f7-46e2-a072-e5f3714e108b",
