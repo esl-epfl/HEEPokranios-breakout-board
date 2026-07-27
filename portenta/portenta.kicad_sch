@@ -3281,6 +3281,196 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
@@ -6718,6 +6908,18 @@
 		)
 	)
 	(rectangle
+		(start 210.185 215.9)
+		(end 295.91 276.225)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "0837f580-34db-4c1d-b7de-3baeb53d0976")
+	)
+	(rectangle
 		(start 62.23 153.035)
 		(end 149.86 213.36)
 		(stroke
@@ -7108,6 +7310,12 @@
 		(uuid "661e7b3a-5fc2-4a8b-9a94-6bf1f71b1a91")
 	)
 	(junction
+		(at 262.89 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ae28ca6-2e33-4906-83f8-9e96aa7b09bd")
+	)
+	(junction
 		(at 196.85 236.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7142,6 +7350,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1a9015b-8f21-4daa-8ad1-de1b59fe496c")
+	)
+	(junction
+		(at 252.73 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aab0a4f0-dfe9-4713-bebc-c03f5fa33bfd")
 	)
 	(junction
 		(at 223.52 118.11)
@@ -7204,6 +7418,12 @@
 		(uuid "e534d23b-e660-464f-9542-990df25a9b29")
 	)
 	(junction
+		(at 271.78 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8b0cb81-071c-469f-8260-144ee7816937")
+	)
+	(junction
 		(at 223.52 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7232,6 +7452,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd52b446-31c0-4604-a683-c1eaa850cb2d")
+	)
+	(junction
+		(at 240.03 257.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffec8815-8040-4722-9755-9d3b0b951138")
 	)
 	(no_connect
 		(at 41.91 213.36)
@@ -7324,6 +7550,16 @@
 			(type default)
 		)
 		(uuid "0572b032-7aa4-4d04-8432-cf135e3b02c9")
+	)
+	(wire
+		(pts
+			(xy 228.6 254) (xy 228.6 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06f6aa00-5960-437d-9364-7256d8bce066")
 	)
 	(wire
 		(pts
@@ -7427,6 +7663,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 231.14) (xy 252.73 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cad8e1c-2e5d-4607-98a9-a18c82a32ca7")
+	)
+	(wire
+		(pts
 			(xy 378.46 193.04) (xy 392.43 193.04)
 		)
 		(stroke
@@ -7527,6 +7773,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 231.14) (xy 271.78 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cfeea7d-112f-4748-80fc-ceec3965d548")
+	)
+	(wire
+		(pts
 			(xy 168.91 208.28) (xy 163.83 208.28)
 		)
 		(stroke
@@ -7617,6 +7873,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 241.3) (xy 228.6 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24272d6f-f624-4b67-90dd-7fd9b26dfe1e")
+	)
+	(wire
+		(pts
 			(xy 378.46 195.58) (xy 401.32 195.58)
 		)
 		(stroke
@@ -7647,6 +7913,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 257.81) (xy 280.67 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27a7f631-8bd9-4311-a2c8-0fd4f8f559a6")
+	)
+	(wire
+		(pts
 			(xy 227.33 199.39) (xy 227.33 207.01)
 		)
 		(stroke
@@ -7654,6 +7930,16 @@
 			(type default)
 		)
 		(uuid "27e01fc0-9e51-4ebb-9c1e-4b7bea5c4e40")
+	)
+	(wire
+		(pts
+			(xy 240.03 254) (xy 240.03 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "283fd3c0-2417-46a2-b873-ea77198531a6")
 	)
 	(wire
 		(pts
@@ -8227,6 +8513,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 241.3) (xy 271.78 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63f4f77b-209b-46cc-b929-bb96f6da6069")
+	)
+	(wire
+		(pts
 			(xy 238.76 180.34) (xy 255.27 180.34)
 		)
 		(stroke
@@ -8347,6 +8643,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 257.81) (xy 252.73 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70967eb3-2c58-4907-96f1-3bc3e88703c4")
+	)
+	(wire
+		(pts
 			(xy 157.48 99.06) (xy 170.18 99.06)
 		)
 		(stroke
@@ -8354,6 +8660,16 @@
 			(type default)
 		)
 		(uuid "70cd7e4c-a9e1-468d-9616-d1b600ffd078")
+	)
+	(wire
+		(pts
+			(xy 271.78 231.14) (xy 271.78 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7108afe4-f78c-495c-a67e-a5b721585ae6")
 	)
 	(wire
 		(pts
@@ -8457,6 +8773,26 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 231.14) (xy 262.89 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77a9bc2e-33e4-424b-8e01-484bc2e8bc4d")
+	)
+	(wire
+		(pts
+			(xy 280.67 241.3) (xy 280.67 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7949fbad-025a-4c73-876f-8bda60643fb2")
+	)
+	(wire
+		(pts
 			(xy 91.44 69.85) (xy 92.71 69.85)
 		)
 		(stroke
@@ -8537,6 +8873,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 257.81) (xy 271.78 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e99d9f2-777a-4d7d-8ac1-64e3c2d17220")
+	)
+	(wire
+		(pts
 			(xy 378.46 185.42) (xy 392.43 185.42)
 		)
 		(stroke
@@ -8554,6 +8900,16 @@
 			(type default)
 		)
 		(uuid "8013416a-b525-4a33-8e9a-fb1a94d8d9b4")
+	)
+	(wire
+		(pts
+			(xy 228.6 231.14) (xy 228.6 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8267ad84-49f4-44ba-be1a-33d0a2aad4bf")
 	)
 	(wire
 		(pts
@@ -8827,6 +9183,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 231.14) (xy 280.67 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "961294d4-8ff1-4907-8a6b-8c8995fe6e0b")
+	)
+	(wire
+		(pts
 			(xy 171.45 208.28) (xy 168.91 208.28)
 		)
 		(stroke
@@ -8864,6 +9230,16 @@
 			(type default)
 		)
 		(uuid "979072f0-e577-4764-9aaf-5036b105c695")
+	)
+	(wire
+		(pts
+			(xy 240.03 231.14) (xy 240.03 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97fc3513-ac10-4795-a7a4-6fd1010d5e5e")
 	)
 	(wire
 		(pts
@@ -9057,6 +9433,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 257.81) (xy 240.03 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a72e2aa6-c118-4388-9ec6-3a9f7b444cda")
+	)
+	(wire
+		(pts
 			(xy 224.79 120.65) (xy 224.79 130.81)
 		)
 		(stroke
@@ -9217,6 +9603,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 231.14) (xy 280.67 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c78cd5fe-704f-49a7-8e76-2a72604f6f95")
+	)
+	(wire
+		(pts
 			(xy 166.37 248.92) (xy 176.53 248.92)
 		)
 		(stroke
@@ -9254,6 +9650,16 @@
 			(type default)
 		)
 		(uuid "c971c185-f14f-4e82-8221-6ede25651abf")
+	)
+	(wire
+		(pts
+			(xy 262.89 257.81) (xy 262.89 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca82c1fc-99ab-4a48-a509-bef657a923af")
 	)
 	(wire
 		(pts
@@ -9317,6 +9723,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 241.3) (xy 262.89 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cec4590f-50b3-4648-aeae-2b3e4ca21610")
+	)
+	(wire
+		(pts
 			(xy 107.95 222.25) (xy 107.95 224.79)
 		)
 		(stroke
@@ -9324,6 +9740,16 @@
 			(type default)
 		)
 		(uuid "cff2e808-d5ed-4a8e-8c1e-b855966af609")
+	)
+	(wire
+		(pts
+			(xy 240.03 231.14) (xy 252.73 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d070b955-72dc-48a7-81c2-a31ff0bdbf0b")
 	)
 	(wire
 		(pts
@@ -9414,6 +9840,16 @@
 			(type default)
 		)
 		(uuid "dca7a1b7-6814-4105-bff5-078e510382c8")
+	)
+	(wire
+		(pts
+			(xy 252.73 241.3) (xy 252.73 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd045510-a117-4570-b8b6-cfb22417bcb3")
 	)
 	(wire
 		(pts
@@ -9544,6 +9980,16 @@
 			(type default)
 		)
 		(uuid "e9a75e33-7876-442b-bd47-32d4f47cebd7")
+	)
+	(wire
+		(pts
+			(xy 262.89 231.14) (xy 262.89 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea492f98-013f-402d-9713-4788bef056ac")
 	)
 	(wire
 		(pts
@@ -9727,6 +10173,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 241.3) (xy 240.03 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa8acf5e-c153-42f1-ac56-68e731eece50")
+	)
+	(wire
+		(pts
 			(xy 88.9 64.77) (xy 92.71 64.77)
 		)
 		(stroke
@@ -9895,7 +10351,7 @@
 		)
 		(uuid "081086b7-297d-42c1-adf8-a2e6447d64a3")
 	)
-	(label "OEN_1"
+	(label "OEN_0"
 		(at 109.22 142.24 180)
 		(effects
 			(font
@@ -10054,6 +10510,16 @@
 			(justify left bottom)
 		)
 		(uuid "25030e27-ac27-4d9d-89cc-5a4621f30d40")
+	)
+	(label "VDD_3V3"
+		(at 240.03 231.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "25579ebb-3630-42ee-80b0-6308ec7189de")
 	)
 	(label "DMUX_1_DIR"
 		(at 186.69 184.15 0)
@@ -10385,7 +10851,7 @@
 		)
 		(uuid "506136b5-977b-4d34-a8dd-9ce889b76bbf")
 	)
-	(label "OEN_0"
+	(label "OEN_1"
 		(at 107.95 86.36 180)
 		(effects
 			(font
@@ -10394,6 +10860,16 @@
 			(justify right bottom)
 		)
 		(uuid "51a95d59-f1d8-4831-8277-eda50732f53a")
+	)
+	(label "OEN_3"
+		(at 252.73 257.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "537007b6-3267-488e-968b-ff634b3988a9")
 	)
 	(label "GPIO_1"
 		(at 128.27 181.61 0)
@@ -10435,6 +10911,16 @@
 		)
 		(uuid "59dfb397-0a4a-4bd0-9821-6d52c7eeb2f1")
 	)
+	(label "OEN_0"
+		(at 280.67 257.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5be3c88b-6dce-491e-af9b-298507805e9c")
+	)
 	(label "DMUX_0_PORTENTA"
 		(at 311.15 187.96 0)
 		(effects
@@ -10455,7 +10941,7 @@
 		)
 		(uuid "604a2bfe-0487-4bcd-9938-561a87fed5f0")
 	)
-	(label "OEN_2"
+	(label "OEN_3"
 		(at 110.49 269.24 180)
 		(effects
 			(font
@@ -10615,7 +11101,7 @@
 		)
 		(uuid "7bf4f71a-f70c-47bd-89c1-b41d6c6df09f")
 	)
-	(label "OEN_1"
+	(label "OEN_2"
 		(at 161.29 246.38 0)
 		(effects
 			(font
@@ -10675,7 +11161,7 @@
 		)
 		(uuid "8c832607-dae4-4717-9f56-83cd5c083a04")
 	)
-	(label "OEN_2"
+	(label "OEN_1"
 		(at 166.37 248.92 0)
 		(effects
 			(font
@@ -10775,6 +11261,16 @@
 		)
 		(uuid "9fb323c5-7f47-4905-b5dc-71ebefe18d68")
 	)
+	(label "CHEEP_VDDIO"
+		(at 228.6 231.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9fccddc1-bf98-480c-85c4-3c5813843b37")
+	)
 	(label "DMUX_5"
 		(at 196.85 128.27 180)
 		(effects
@@ -10815,7 +11311,7 @@
 		)
 		(uuid "aa2465c4-b099-4d51-8856-6bd45a8e4c28")
 	)
-	(label "OEN_3"
+	(label "OEN_2"
 		(at 110.49 205.74 180)
 		(effects
 			(font
@@ -11065,7 +11561,7 @@
 		)
 		(uuid "d22cfd3f-e793-4681-b313-935a6280ed16")
 	)
-	(label "OEN_0"
+	(label "OEN_3"
 		(at 156.21 243.84 0)
 		(effects
 			(font
@@ -11115,7 +11611,7 @@
 		)
 		(uuid "d85c95ff-d9a6-4a7b-8e93-f4b23ac29a63")
 	)
-	(label "OEN_3"
+	(label "OEN_0"
 		(at 171.45 251.46 0)
 		(effects
 			(font
@@ -11295,6 +11791,16 @@
 		)
 		(uuid "eb716e2b-7636-4c70-a2b4-ea5f3c6efc4c")
 	)
+	(label "OEN_2"
+		(at 262.89 257.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec721c48-53d2-472c-bd8b-2bc20954f01d")
+	)
 	(label "DMUX_7_DIR"
 		(at 133.35 128.27 0)
 		(effects
@@ -11384,6 +11890,16 @@
 			(justify left bottom)
 		)
 		(uuid "fd7beed0-8632-43b5-9f36-960d78d8e0bf")
+	)
+	(label "OEN_1"
+		(at 271.78 257.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe349a6f-f2ee-4fab-82fc-aa1523347aba")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -12211,6 +12727,249 @@
 			(project "portenta"
 				(path "/dc313ab4-565b-4f37-8999-81b690b551c0"
 					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 262.89 250.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "06b3f2c3-20e0-46f5-911c-d56cd4e04c6d")
+		(property "Reference" "R28"
+			(at 264.414 247.904 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 264.16 255.524 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 263.906 250.444 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 262.89 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "863c3aac-e617-4fcf-a8d6-82823830804f")
+		)
+		(pin "2"
+			(uuid "a7041ffb-f8a3-457e-8980-19d28080b9ae")
+		)
+		(instances
+			(project "portenta"
+				(path "/dc313ab4-565b-4f37-8999-81b690b551c0"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 240.03 250.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "079226b2-8e56-47f9-a8de-b98544c968a2")
+		(property "Reference" "R26"
+			(at 241.554 247.904 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 241.3 255.524 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 241.046 250.444 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 240.03 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d1fbce34-7ecf-4f95-accc-f84251e8a7e4")
+		)
+		(pin "2"
+			(uuid "bf3a70ac-44f9-44fb-9232-d22fada599bf")
+		)
+		(instances
+			(project "portenta"
+				(path "/dc313ab4-565b-4f37-8999-81b690b551c0"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 228.6 250.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "11326198-9f58-4c76-be9f-8af67b1020b7")
+		(property "Reference" "R25"
+			(at 230.124 247.904 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 229.87 255.524 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 229.616 250.444 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 228.6 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "158c215d-0ca0-42b7-b1b5-77fec7878e8c")
+		)
+		(pin "2"
+			(uuid "c6bbc1e1-a7ef-43fa-ac02-7289ea87e260")
+		)
+		(instances
+			(project "portenta"
+				(path "/dc313ab4-565b-4f37-8999-81b690b551c0"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -13296,6 +14055,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 262.89 237.49 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1dee0621-ea2f-4d27-a603-3ebd6bc0d5ca")
+		(property "Reference" "D4"
+			(at 266.7 237.8074 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 266.7 240.3474 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 262.89 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 262.89 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "41846d88-4c29-4f2e-b49e-f0734bc440a0")
+		)
+		(pin "2"
+			(uuid "747e04d4-3493-41c8-928d-c26df84f6128")
+		)
+		(instances
+			(project "portenta"
+				(path "/dc313ab4-565b-4f37-8999-81b690b551c0"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 215.9 176.53 0)
 		(unit 1)
@@ -13457,6 +14298,88 @@
 			(project "portenta"
 				(path "/dc313ab4-565b-4f37-8999-81b690b551c0"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 228.6 237.49 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2282a796-1468-40c3-96be-9c0e415c5269")
+		(property "Reference" "D1"
+			(at 232.41 237.8074 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 232.41 240.3474 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 228.6 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 228.6 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "83d524e3-7fd8-4896-be3e-03cb5a6159e2")
+		)
+		(pin "2"
+			(uuid "7f5442ab-959e-4bfa-afe6-ad10ed482ffa")
+		)
+		(instances
+			(project "portenta"
+				(path "/dc313ab4-565b-4f37-8999-81b690b551c0"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -14097,6 +15020,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 271.78 237.49 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c2464fa-bf27-4fee-ae2c-bf815d30f7b4")
+		(property "Reference" "D5"
+			(at 275.59 237.8074 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 275.59 240.3474 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 271.78 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 271.78 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "84f23abd-c140-47fc-8381-77c5e430df74")
+		)
+		(pin "2"
+			(uuid "1106a1ad-8ba9-4470-8347-1908e43a6fd2")
+		)
+		(instances
+			(project "portenta"
+				(path "/dc313ab4-565b-4f37-8999-81b690b551c0"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 171.45 255.27 0)
 		(unit 1)
@@ -14172,6 +15177,87 @@
 			(project "portenta"
 				(path "/dc313ab4-565b-4f37-8999-81b690b551c0"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 252.73 250.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5a9bf176-68a2-426c-b16c-0cca30ad0934")
+		(property "Reference" "R27"
+			(at 254.254 247.904 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 254 255.524 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 253.746 250.444 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 252.73 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1a72b25f-293a-4b0a-b932-2f0bd5175531")
+		)
+		(pin "2"
+			(uuid "80e4a32a-4a13-421d-b508-7e38ef62aaa0")
+		)
+		(instances
+			(project "portenta"
+				(path "/dc313ab4-565b-4f37-8999-81b690b551c0"
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -14415,6 +15501,86 @@
 			(project "portenta"
 				(path "/dc313ab4-565b-4f37-8999-81b690b551c0"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 240.03 257.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63cfcfbe-3565-4a0b-84ec-081a1c524262")
+		(property "Reference" "#PWR011"
+			(at 240.03 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 240.0301 261.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 240.03 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f4b3bd74-a1a0-4d9e-bdeb-f9e083067a24")
+		)
+		(instances
+			(project "portenta"
+				(path "/dc313ab4-565b-4f37-8999-81b690b551c0"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -14782,7 +15948,7 @@
 			)
 		)
 		(property "Footprint" "libs:Hirose_DF40HC(4.0)-80DS-0.4V_2x40_P0.4mm"
-			(at 279.908 215.138 0)
+			(at 280.67 213.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15217,6 +16383,88 @@
 			(project "portenta"
 				(path "/dc313ab4-565b-4f37-8999-81b690b551c0"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 252.73 237.49 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78502050-cd19-4a07-a51f-a5b497d1c007")
+		(property "Reference" "D3"
+			(at 256.54 237.8074 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 256.54 240.3474 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 252.73 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 252.73 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "48e16285-a48d-414a-86cf-8380ae3246bb")
+		)
+		(pin "2"
+			(uuid "2f9ea1d5-0250-44e6-814f-feeb80400da9")
+		)
+		(instances
+			(project "portenta"
+				(path "/dc313ab4-565b-4f37-8999-81b690b551c0"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -16478,6 +17726,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 240.03 237.49 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a43d101e-3ae6-4559-8a21-4d8e4854784d")
+		(property "Reference" "D2"
+			(at 243.84 237.8074 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 243.84 240.3474 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 240.03 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 240.03 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1edeb798-37ab-4ba4-90c6-e4d2d635a3a2")
+		)
+		(pin "2"
+			(uuid "29b20bd9-4fc2-415e-bbca-34e6824627ae")
+		)
+		(instances
+			(project "portenta"
+				(path "/dc313ab4-565b-4f37-8999-81b690b551c0"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 139.7 161.29 0)
 		(unit 1)
@@ -16593,6 +17923,87 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 271.78 250.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "afc5fd9a-580f-403d-9dc5-5024075dc3ac")
+		(property "Reference" "R29"
+			(at 273.304 247.904 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 273.05 255.524 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 272.796 250.444 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 271.78 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e8101020-f481-459d-b90d-02315c5028f6")
+		)
+		(pin "2"
+			(uuid "a49f6cfd-7e45-4a06-bc6a-2c611faf6a3a")
+		)
+		(instances
+			(project "portenta"
+				(path "/dc313ab4-565b-4f37-8999-81b690b551c0"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 219.71 180.34 0)
 		(unit 1)
 		(body_style 1)
@@ -16667,6 +18078,88 @@
 			(project "portenta"
 				(path "/dc313ab4-565b-4f37-8999-81b690b551c0"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 280.67 237.49 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b86733d7-13ca-4979-ba74-11159a513d01")
+		(property "Reference" "D6"
+			(at 284.48 237.8074 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 284.48 240.3474 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 280.67 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 280.67 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 280.67 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f34b61dc-417a-4beb-91bd-0824c39bc901")
+		)
+		(pin "2"
+			(uuid "b4400f2c-e28a-44c0-8bd5-753b2b483ba2")
+		)
+		(instances
+			(project "portenta"
+				(path "/dc313ab4-565b-4f37-8999-81b690b551c0"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -17009,7 +18502,7 @@
 			)
 		)
 		(property "Footprint" "libs:Hirose_DF40HC(4.0)-80DS-0.4V_2x40_P0.4mm"
-			(at 356.108 214.63 0)
+			(at 355.6 213.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18252,6 +19745,87 @@
 			(project "portenta"
 				(path "/dc313ab4-565b-4f37-8999-81b690b551c0"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 280.67 250.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e1f24853-7537-4793-a00e-0e202a424383")
+		(property "Reference" "R30"
+			(at 282.194 247.904 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 281.94 255.524 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 281.686 250.444 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 280.67 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 280.67 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fd393ce6-e2d7-481a-8f95-20f82e819f3d")
+		)
+		(pin "2"
+			(uuid "c8937f39-060f-45e0-93bf-989425821b79")
+		)
+		(instances
+			(project "portenta"
+				(path "/dc313ab4-565b-4f37-8999-81b690b551c0"
+					(reference "R30")
 					(unit 1)
 				)
 			)
