@@ -16581,7 +16581,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx08_Slide_6.7x21.88mm_W6.73mm_P2.54mm_LowProfile_JPin"
+		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx08_Slide_6.7x21.88mm_W8.61mm_P2.54mm_LowProfile"
 			(at 207.01 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -18910,7 +18910,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx04_Slide_6.7x11.72mm_W6.73mm_P2.54mm_LowProfile_JPin"
+		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx04_Slide_6.7x11.72mm_W8.61mm_P2.54mm_LowProfile"
 			(at 184.15 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -18921,7 +18921,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "C5439763"
 			(at 184.15 248.92 0)
 			(hide yes)
 			(show_name no)
