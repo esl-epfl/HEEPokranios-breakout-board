@@ -765,7 +765,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "",
+    "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -796,7 +796,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -838,7 +838,7 @@
           "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -927,7 +927,7 @@
         "uuid": "ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
       }
     ],
-    "used_designators": "Cdiff1-5,SW1-3,IC1-5,RF1-10,J1-49,RO1-10,#PWR1-113,R1-8,C1-88,RG1-10,D1,U1,S1-53,#GND_1-29,#GND_68,#GND_72-90",
+    "used_designators": "Cdiff1-5,RF1-10,SW1-3,IC1-5,J1-49,R1-8,RO1-10,#PWR1-113,C1-88,RG1-10,D1,U1,S1-53,#GND_1-29,#GND_68,#GND_72-90",
     "variants": []
   },
   "sheets": [
