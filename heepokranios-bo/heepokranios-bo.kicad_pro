@@ -927,7 +927,7 @@
         "uuid": "ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
       }
     ],
-    "used_designators": "Cdiff1-5,RF1-10,SW1-3,IC1-5,J1-49,R1-8,RO1-10,#PWR1-113,C1-88,RG1-10,D1,U1,S1-53,#GND_1-29,#GND_68,#GND_72-90",
+    "used_designators": "Cdiff1-5,RF1-10,SW1-3,IC1-5,J1-49,R1-8,RO1-10,#PWR1-119,C1-88,RG1-10,D1,U1,S1-53,#GND_1-29,#GND_68,#GND_72-90",
     "variants": []
   },
   "sheets": [

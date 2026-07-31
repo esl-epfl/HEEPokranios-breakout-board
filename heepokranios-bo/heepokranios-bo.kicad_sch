@@ -9394,10 +9394,6 @@
 		(uuid "23728ff4-4ce7-4c1d-afa5-cfb82363c887")
 	)
 	(no_connect
-		(at 284.48 227.33)
-		(uuid "23a49778-cc00-4e4a-b4a7-537e3bb641bd")
-	)
-	(no_connect
 		(at 257.81 86.36)
 		(uuid "23f84e25-7a66-4bd8-9e06-b67355aa3672")
 	)
@@ -9420,10 +9416,6 @@
 	(no_connect
 		(at 252.73 31.75)
 		(uuid "2eda093d-fb1d-42bc-8776-3da8db9e3213")
-	)
-	(no_connect
-		(at 279.4 227.33)
-		(uuid "2f428dca-b136-42da-85f5-4b573157393c")
 	)
 	(no_connect
 		(at 326.39 86.36)
@@ -9590,10 +9582,6 @@
 		(uuid "91db2c6d-c9c5-46eb-998c-f9b7c50241f5")
 	)
 	(no_connect
-		(at 292.1 227.33)
-		(uuid "92130838-4014-4071-99aa-81392001e222")
-	)
-	(no_connect
 		(at 262.89 86.36)
 		(uuid "92bd2e68-2acf-45f9-9d01-2686b57e4e0b")
 	)
@@ -9640,10 +9628,6 @@
 	(no_connect
 		(at 311.15 58.42)
 		(uuid "b3ae0f3d-6595-48ca-b15e-f00d8efaae00")
-	)
-	(no_connect
-		(at 222.25 179.07)
-		(uuid "b61bac1b-261b-4818-8a89-69f4b037214c")
 	)
 	(no_connect
 		(at 234.95 86.36)
@@ -9706,10 +9690,6 @@
 		(uuid "c9447c91-a5d1-4510-ab9b-6653f49cadc5")
 	)
 	(no_connect
-		(at 306.07 176.53)
-		(uuid "c965aaa7-96a3-4dea-a4f7-13631a9ee2eb")
-	)
-	(no_connect
 		(at 265.43 86.36)
 		(uuid "cdbb71ad-ff78-4b19-a3dc-8fafd130b622")
 	)
@@ -9724,10 +9704,6 @@
 	(no_connect
 		(at 275.59 58.42)
 		(uuid "d0302f15-fad2-48f0-b043-666eeef0c5d1")
-	)
-	(no_connect
-		(at 264.16 227.33)
-		(uuid "d281bc82-a728-4030-943b-57f5b89ffdcb")
 	)
 	(no_connect
 		(at 250.19 58.42)
@@ -10852,6 +10828,16 @@
 			(type default)
 		)
 		(uuid "2fcc9d34-6e2c-4d34-9e59-f67628e84d32")
+	)
+	(wire
+		(pts
+			(xy 279.4 228.6) (xy 279.4 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30c0f94c-5be6-4ad3-852f-482938aeb949")
 	)
 	(wire
 		(pts
@@ -12085,6 +12071,16 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 176.53) (xy 306.07 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78d3d5ab-83a6-4880-b48c-ffdc03485e4f")
+	)
+	(wire
+		(pts
 			(xy 433.07 189.23) (xy 436.88 189.23)
 		)
 		(stroke
@@ -12152,6 +12148,16 @@
 			(type default)
 		)
 		(uuid "7d4b3abd-e6b2-49ef-9abd-42c719857431")
+	)
+	(wire
+		(pts
+			(xy 264.16 228.6) (xy 264.16 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e5ddd6f-cd79-483b-bb9c-e4160abef6bf")
 	)
 	(wire
 		(pts
@@ -12515,6 +12521,16 @@
 	)
 	(wire
 		(pts
+			(xy 284.48 228.6) (xy 284.48 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94ad48c0-25eb-4248-942c-5e55e48831c7")
+	)
+	(wire
+		(pts
 			(xy 386.08 190.5) (xy 393.7 190.5)
 		)
 		(stroke
@@ -12732,6 +12748,16 @@
 			(type default)
 		)
 		(uuid "9dcb9951-b65a-4613-b0d1-ba6175011546")
+	)
+	(wire
+		(pts
+			(xy 220.98 179.07) (xy 222.25 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fa1e100-103e-4b3d-8c5a-528cca6789a1")
 	)
 	(wire
 		(pts
@@ -13552,6 +13578,16 @@
 			(type default)
 		)
 		(uuid "c1dd8671-22c5-433c-beab-2fe29598006b")
+	)
+	(wire
+		(pts
+			(xy 292.1 228.6) (xy 292.1 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c249cf05-424d-43c7-995d-81e2b94d551b")
 	)
 	(wire
 		(pts
@@ -38522,6 +38558,86 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 284.48 228.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b59dc7b-3b14-4399-a586-6e20732ebffa")
+		(property "Reference" "#PWR0118"
+			(at 284.48 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 284.4799 232.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 284.48 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 284.48 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 284.48 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "17584091-d3e9-4d9d-8638-666e3e4d1359")
+		)
+		(instances
+			(project "heepokranios-bo"
+				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
+					(reference "#PWR0118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 439.42 180.34 90)
 		(unit 1)
@@ -45785,6 +45901,166 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 279.4 228.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a76bf27b-9e4e-4731-9dab-1f2da2ae9e9f")
+		(property "Reference" "#PWR0117"
+			(at 279.4 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 279.3999 232.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 279.4 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5b7a2d09-d6bc-4ed7-af67-a3da1fe6a5c7")
+		)
+		(instances
+			(project "heepokranios-bo"
+				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 220.98 179.07 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a787f28a-90b7-4c43-bfd1-0f256c4080e9")
+		(property "Reference" "#PWR0115"
+			(at 214.63 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 179.0699 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 220.98 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1a76b004-1caa-43e1-a31d-fc138b07c991")
+		)
+		(instances
+			(project "heepokranios-bo"
+				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "heepokranios-bo-library:SMA_w_tp")
 		(at 208.28 311.15 270)
 		(mirror x)
@@ -46863,6 +47139,86 @@
 			(project "heepokranios-bo"
 				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
 					(reference "S50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 292.1 228.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3e48cb6-fb26-4008-ad6a-d7521a7b6054")
+		(property "Reference" "#PWR0119"
+			(at 292.1 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 292.0999 232.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 292.1 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 292.1 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "36cf9ca7-75ee-466d-9950-8c681f1bd9c7")
+		)
+		(instances
+			(project "heepokranios-bo"
+				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -49781,6 +50137,86 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 264.16 228.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3845e7f-90ae-46f2-ae33-daadfeb55dc4")
+		(property "Reference" "#PWR0116"
+			(at 264.16 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 264.1599 232.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 264.16 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c886247a-357e-4b07-be5c-542938e652ca")
+		)
+		(instances
+			(project "heepokranios-bo"
+				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
 		(at 127 256.54 90)
 		(unit 1)
@@ -51080,6 +51516,86 @@
 			(project "heepokranios-bo"
 				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
 					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 307.34 176.53 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df43ed5a-a77d-4778-99ee-f1c5e2c83a3c")
+		(property "Reference" "#PWR0114"
+			(at 313.69 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 311.15 176.5301 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 307.34 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 307.34 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 307.34 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "57d8374f-f8ae-4e5d-8883-491ed5b4ee0f")
+		)
+		(instances
+			(project "heepokranios-bo"
+				(path "/ee6a4f3e-c170-41be-a165-91e3bf2c65c5"
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
