@@ -13482,16 +13482,6 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 156.21) (xy 306.07 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc2fcef0-311a-42f8-be78-a769ee569a29")
-	)
-	(wire
-		(pts
 			(xy 461.01 162.56) (xy 458.47 162.56)
 		)
 		(stroke
@@ -14349,16 +14339,6 @@
 			(type default)
 		)
 		(uuid "eea85257-02f3-47f3-8ee0-623d998710c7")
-	)
-	(wire
-		(pts
-			(xy 314.96 173.99) (xy 306.07 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efbc828e-a406-49bd-8d55-aabdb2a257f5")
 	)
 	(wire
 		(pts
@@ -28518,7 +28498,7 @@
 		)
 		(uuid "0c85089e-8fa9-4f22-9f0d-b996273408f2")
 	)
-	(label "DMUX_2"
+	(label "DMUX_5"
 		(at 306.07 161.29 0)
 		(effects
 			(font
@@ -28768,8 +28748,8 @@
 		)
 		(uuid "2a0c08af-01a3-4184-8952-1daad1fe16db")
 	)
-	(label "DMUX_0"
-		(at 316.23 156.21 0)
+	(label "DMUX_7"
+		(at 306.07 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -28898,8 +28878,8 @@
 		)
 		(uuid "3b5f4fe8-40dc-40d9-935e-83560cf0242e")
 	)
-	(label "DMUX_7"
-		(at 314.96 173.99 0)
+	(label "DMUX_0"
+		(at 306.07 173.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -29028,7 +29008,7 @@
 		)
 		(uuid "4b368e4c-db4f-4373-be7b-9c0b638106cb")
 	)
-	(label "DMUX_6"
+	(label "DMUX_1"
 		(at 306.07 171.45 0)
 		(effects
 			(font
@@ -29198,7 +29178,7 @@
 		)
 		(uuid "61a60290-cf40-4678-b82d-152bcffa97eb")
 	)
-	(label "DMUX_5"
+	(label "DMUX_2"
 		(at 306.07 168.91 0)
 		(effects
 			(font
@@ -29558,7 +29538,7 @@
 		)
 		(uuid "874356e1-71dc-465e-a11e-0e23514d64cc")
 	)
-	(label "DMUX_1"
+	(label "DMUX_6"
 		(at 306.07 158.75 0)
 		(effects
 			(font
@@ -29688,7 +29668,7 @@
 		)
 		(uuid "98c1137a-1b0b-4de9-b90c-d9b4d8f6fa10")
 	)
-	(label "DMUX_3"
+	(label "DMUX_4"
 		(at 306.07 163.83 0)
 		(effects
 			(font
@@ -30008,7 +29988,7 @@
 		)
 		(uuid "c787aa2b-ddb6-4e24-a40b-7a9ab60d68bc")
 	)
-	(label "DMUX_4"
+	(label "DMUX_3"
 		(at 306.07 166.37 0)
 		(effects
 			(font
