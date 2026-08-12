@@ -8,7 +8,7 @@ Conn_02x02_Odd_Even,"J1,J2,J9,J23,J24,J25,J28,J44",PinHeader_2x02_P2.54mm_Vertic
 Conn_02x03_Odd_Even,"J3,J4,J5,J8",PinHeader_2x03_P2.54mm_Vertical,C42431837,4
 Conn_02x03_Odd_Even,"J14,J16,J17",PinSocket_2x03_P2.54mm_Horizontal,C5333425,3
 Conn_02x04_Odd_Even,J6,PinHeader_2x04_P2.54mm_Vertical,C7430400,1
-Conn_03x03,J7,PinHeader_3x03_P2.54mm_Vertical,C20610250,1
+Conn_03x03,J7,PinHeader_3x03_P2.54mm_Vertical,C7429377,1
 Conn_02x08_Odd_Even,J15,PinSocket_2x08_P2.54mm_Horizontal,C239359,1
 Conn_01x03,"J18,J19,J20,J22,J45",PinHeader_1x03_P2.54mm_Vertical,C42431836,5
 220k,"R1,R2",R_0603_1608Metric,C22961,2
